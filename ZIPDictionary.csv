@@ -1,0 +1,983 @@
+Codebook,,,,
+,,,,
+,,,,
+ZIP,,,,
+,,Value,,
+Standard Attributes,Label,Zip code,,
+N,Valid,42632,,
+,Missing,0,,
+Central Tendency and Dispersion,Mean,49391.53061,,
+,Standard Deviation,28232.71902,,
+,Percentile 25,25370,,
+,Percentile 50,48607.5,,
+,Percentile 75,73076,,
+,,,,
+RUCA,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"RUCA 2.0 of the largest component of zip, agg by city and county to include PO boxes",,
+Valid Values,1.0,Metropolitan area core: primary flow within an Urbanized Area (UA),16794,0.393929443
+,1.1,Secondary flow 30% through 49% to a larger UA,3160,0.074122725
+,2.0,Metropolitan area high commuting: primary flow 30% or more to a UA,4927,0.115570464
+,2.1,Secondary flow 30% through 49% to a larger UA,260,0.006098705
+,3.0,Metropolitan area low commuting: primary flow 10% to 30% to a UA,571,0.013393695
+,4.0,"Micropolitan* area core: primary flow within an Urban Cluster (UC) of 10,000 through 49,999 (large UC)",3165,0.074240008
+,4.1,Secondary flow 30% through 49% to a UA,1191,0.027936761
+,4.2,Secondary flow 10% through 29% to a UA,155,0.003635767
+,5.0,Micropolitan* high commuting: primary flow 30% or more to a large UC,1352,0.031713267
+,5.1,Secondary flow 30% through 49% to a UA,217,0.005090073
+,5.2,Secondary flow 10% through 29% to a UA,15,0.000351848
+,6.0,Micropolitan* low commuting: primary flow 10% to 30% to a large UC,256,0.006004879
+,6.1,Secondary flow 10% through 29% to a UA,3,7.03697E-05
+,7.0,"Small town core: primary flow within an Urban Cluster of 2,500 through 9,999 (small UC)",2451,0.057492025
+,7.1,Secondary flow 30% through 49% to a UA,1266,0.029696003
+,7.2,Secondary flow 30% through 49% to a large UC,699,0.016396134
+,7.3,Secondary flow 10% through 29% to a UA,60,0.001407394
+,7.4,Secondary flow 10% through 29% to a large UC,39,0.000914806
+,8.0,Small town high commuting: primary flow 30% or more to a small UC,550,0.012901107
+,8.1,Secondary flow 30% through 49% to a UA,113,0.002650591
+,8.2,Secondary flow 30% through 49% to a large UC,34,0.000797523
+,8.3,Secondary flow 10% through 29% to a UA,4,9.38262E-05
+,8.4,Secondary flow 10% through 29% to a large UC,5,0.000117283
+,9.0,Small town low commuting: primary flow 10% through 29% to a small UC,211,0.004949334
+,9.1,Secondary flow 10% through 29% to a UA,14,0.000328392
+,9.2,Secondary flow 10% through 29% to a large UC,5,0.000117283
+,10.0,Rural areas: primary flow to a tract outside a UA or UC (including self),1836,0.043066241
+,10.1,Secondary flow 30% through 49% to a UA,667,0.015645524
+,10.2,Secondary flow 30% through 49% to a large UC,846,0.019844248
+,10.3,Secondary flow 30% through 49% to a small UC,780,0.018296116
+,10.4,Secondary flow 10% through 29% to a UA,88,0.002064177
+,10.5,Secondary flow 10% through 29% to a large UC,57,0.001337024
+,10.6,Secondary flow 10% through 29% to a small UC,85,0.001993807
+Missing Values,System,,756,0.017733158
+,,,,
+RUCA4,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"RUCA 4-category collapsed variable, from Categorization A, http://depts.washington.edu/uwruca/ruca-uses.php",,
+Valid Values,1,Urban focused,29166,0.684133984
+,2,Large Rural City/Town (micropolitan) focused,4946,0.116016138
+,3,Small Rural Town focused,4072,0.095515106
+,4,Isolated Small Rural Town focused,3692,0.086601614
+Missing Values,System,,756,0.017733158
+,,,,
+RUCA3,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"RUCA 3-category collapsed variable, from Categorization B, http://depts.washington.edu/uwruca/ruca-uses.php",,
+Valid Values,1,Urban,29166,0.684133984
+,2,Large Rural City/Town,4946,0.116016138
+,3,Small and Isolated Rural Town,7764,0.18211672
+Missing Values,System,,756,0.017733158
+,,,,
+RUCA2,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"RUCA 2-category collapsed variable, from Categorization C, http://depts.washington.edu/uwruca/ruca-uses.php",,
+Valid Values,1,Urban,29166,0.684133984
+,2,Rural,12710,0.298132858
+Missing Values,System,,756,0.017733158
+,,,,
+RUCA2D,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"RUCA 2-category collapsed (3.0 - rural), from Categorization D, http://depts.washington.edu/uwruca/ruca-uses.php",,
+Valid Values,1,Urban,28595,0.670740289
+,2,Rural,13281,0.311526553
+Missing Values,System,,756,0.017733158
+,,,,
+HRCindex,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,HRC State Equality Index 2018,,
+Valid Values,1.00,High priority to receive basic equality,25140,0.58969788
+,2.00,Building equality,1246,0.029226872
+,3.00,Solidifying equality,2107,0.049422969
+,4.00,Working toward innovative equality,13209,0.309837681
+Missing Values,System,,930,0.021814599
+,,,,
+Laws,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"HRC cumulative ""good laws"" index",,
+Valid Values,1.00,,5935,0.139214674
+,2.00,,2758,0.064693188
+,3.00,,6364,0.149277538
+,4.00,,4446,0.104287859
+,5.00,,2660,0.062394445
+,7.00,,1791,0.042010696
+,9.00,,703,0.016489961
+,10.00,,1524,0.035747795
+,11.00,,1153,0.027045412
+,12.00,,348,0.008162882
+,13.00,,488,0.011446801
+,15.00,,91,0.002134547
+,16.00,,2213,0.051909364
+,17.00,,845,0.019820792
+,18.00,,732,0.017170201
+,20.00,,733,0.017193657
+,21.00,,801,0.018788703
+,23.00,,2700,0.063332708
+,25.00,,919,0.021556577
+,29.00,,254,0.005957966
+,30.00,,1590,0.037295928
+,140.00,,2654,0.062253706
+Missing Values,System,,930,0.021814599
+,,,,
+HRC_highest,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,State ranked as 4 (the highest) = 1; otherwise = 0,,
+Valid Values,.00,,28493,0.66834772
+,1.00,,13209,0.309837681
+Missing Values,System,,930,0.021814599
+,,,,
+HRC_lowest,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,State ranked as 1 (the lowest) = 1; otherwise = 0,,
+Valid Values,.00,,16562,0.388487521
+,1.00,,25140,0.58969788
+Missing Values,System,,930,0.021814599
+,,,,
+HRC_dichot,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"State ranked as 1, 2 = 0, state ranked as 3, 4 = 1",,
+Valid Values,.00,,26386,0.618924751
+,1.00,,15316,0.359260649
+Missing Values,System,,930,0.021814599
+,,,,
+NLaws,,,,
+,,Value,,
+Standard Attributes,Label,Normal Score of Laws using Rankit's Formula,,
+N,Valid,41702,,
+,Missing,930,,
+Central Tendency and Dispersion,Mean,0.095933342,,
+,Standard Deviation,1.054356337,,
+,Percentile 25,-0.48531773,,
+,Percentile 50,-0.049169379,,
+,Percentile 75,0.689996993,,
+,,,,
+RLaws,,,,
+,,Value,,
+Standard Attributes,Label,Rank of Laws,,
+N,Valid,41702,,
+,Missing,930,,
+Central Tendency and Dispersion,Mean,26.61397535,,
+,Standard Deviation,15.10613656,,
+,Percentile 25,16.5,,
+,Percentile 50,25,,
+,Percentile 75,39,,
+,,,,
+HIVBurden,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"County/state identified HHS HIV burden and prevalence, https://files.hiv.gov/s3fs-public/Ending-the-HIV-Epidemic-Counties-and-Territories.pdf",,
+Valid Values,0,,31203,0.731914993
+,1,,10675,0.250398761
+Missing Values,System,,754,0.017686245
+,,,,
+ZIP_STATE,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,State - Calculated from ZIP,,
+N,Valid,42632,,
+,Missing,0,,
+Central Tendency and Dispersion,Mean,30.30875868,,
+,Standard Deviation,16.97404339,,
+,Percentile 25,17,,
+,Percentile 50,30,,
+,Percentile 75,42,,
+Labeled Values,1,Alabama,839,0.019680053
+,2,Alaska,274,0.006427097
+,4,Arizona,568,0.013323325
+,5,Arkansas,710,0.016654157
+,6,California,2654,0.062253706
+,8,Colorado,662,0.015528242
+,9,Connecticut,438,0.010273973
+,10,Delaware,98,0.002298743
+,11,District of Columbia,298,0.006990054
+,12,Florida,1495,0.035067555
+,13,Georgia,973,0.022823231
+,15,Hawaii,139,0.003260462
+,16,Idaho,325,0.007623381
+,17,Illinois,1590,0.037295928
+,18,Indiana,991,0.023245449
+,19,Iowa,1063,0.024934322
+,20,Kansas,757,0.017756615
+,21,Kentucky,966,0.022659035
+,22,Louisiana,725,0.017006005
+,23,Maine,488,0.011446801
+,24,Maryland,621,0.014566523
+,25,Massachusetts,703,0.016489961
+,26,Michigan,1170,0.027444173
+,27,Minnesota,1031,0.024183712
+,28,Mississippi,533,0.012502346
+,29,Missouri,1173,0.027514543
+,30,Montana,405,0.009499906
+,31,Nebraska,621,0.014566523
+,32,Nevada,254,0.005957966
+,33,New Hampshire,284,0.006661663
+,34,New Jersey,732,0.017170201
+,35,New Mexico,428,0.010039407
+,36,New York,2208,0.051792081
+,37,North Carolina,1091,0.025591105
+,38,North Dakota,408,0.009570276
+,39,Ohio,1447,0.03394164
+,40,Oklahoma,777,0.018225746
+,41,Oregon,492,0.011540627
+,42,Pennsylvania,2213,0.051909364
+,44,Rhode Island,91,0.002134547
+,45,South Carolina,540,0.012666542
+,46,South Dakota,394,0.009241884
+,47,Tennessee,796,0.018671421
+,48,Texas,2657,0.062324076
+,49,Utah,348,0.008162882
+,50,Vermont,309,0.007248077
+,51,Virginia,1240,0.029086132
+,53,Washington,733,0.017193657
+,54,West Virginia,857,0.020102271
+,55,Wisconsin,898,0.021063989
+,56,Wyoming,195,0.004574029
+,60,American Samoa,1,2.34566E-05
+,64,Federated States of Micronesia,0,0
+,66,Guam,0,0
+,68,Marshall Islands,0,0
+,69,Commonwealth of the Northern Mariana Islands,0,0
+,70,Palau,0,0
+,72,Puerto Rico,176,0.004128354
+,78,U.S. Virgin Islands,16,0.000375305
+,80,APO or FPO or DPO,713,0.016724526
+,81,U.S. Possession,24,0.000562957
+,,,,
+ZIP_DIVISION,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Division - Calculated from ZIP,,
+Valid Values,1,New England,2313,0.05425502
+,2,Middle Atlantic,5153,0.120871646
+,3,East North Central,6096,0.14299118
+,4,West North Central,5447,0.127767874
+,5,South Atlantic,7213,0.169192156
+,6,East South Central,3134,0.073512854
+,7,West South Central,4869,0.114209983
+,8,Mountain,3185,0.074709139
+,9,Pacific,4292,0.100675549
+,10,U.S. Possession,217,0.005090073
+,11,Military Overseas,713,0.016724526
+,,,,
+ZIP_REGION,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Region - Calculated from ZIP,,
+Valid Values,1,Northeast,7466,0.175126665
+,2,Midwest,11543,0.270759054
+,3,South,15216,0.356914993
+,4,West,7477,0.175384688
+,5,U.S. Possession,217,0.005090073
+,6,Military Overseas,713,0.016724526
+,,,,
+PrimaryRUCACode2010_citystate_max,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Primary RUCA Code 2010,,
+Valid Values,1,,15729,0.368948208
+,2,,5892,0.138206042
+,3,,570,0.013370238
+,4,,4310,0.101097767
+,5,,1489,0.034926816
+,6,,282,0.006614749
+,7,,5130,0.120332145
+,8,,770,0.01806155
+,9,,258,0.006051792
+,10,,5265,0.12349878
+Missing Values,System,,2937,0.068891912
+,,,,
+SecondaryRUCACode2010_citystate_max,,,,
+,,Value,,
+Standard Attributes,Label,"Secondary RUCA Code, 2010",,
+N,Valid,39695,,
+,Missing,2937,,
+Central Tendency and Dispersion,Mean,3.887731452,,
+,Standard Deviation,3.292367876,,
+,Percentile 25,1,,
+,Percentile 50,2,,
+,Percentile 75,7,,
+,,,,
+type,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,"Military, PO Box, Standard, or Unique (such as IRS)",,
+Valid Values,MILITARY,,714,0.016747983
+,PO BOX,,9468,0.222086695
+,STANDARD,,29983,0.703297992
+,UNIQUE,,2467,0.05786733
+,,,,
+decommissioned,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Deocmmissioned (according to USPS),,
+Valid Values,0,,41968,0.984424845
+,1,,664,0.015575155
+,,,,
+primary_city,,,,
+,,Value,,
+Standard Attributes,Label,Primary city (according to USPS),,
+,,,,
+acceptable_cities,,,,
+,,Value,,
+Standard Attributes,Label,Acceptable cities (according to USPS),,
+,,,,
+unacceptable_cities,,,,
+,,Value,,
+Standard Attributes,Label,"Unacceptable cities (according to USPS) city limits, not correct city ID,",,
+,,,,
+state,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,US state abbreviation,,
+Valid Values,AA,,56,0.001313567
+,AE,,459,0.01076656
+,AK,,274,0.006427097
+,AL,,839,0.019680053
+,AP,,198,0.004644399
+,AR,,710,0.016654157
+,AS,,1,2.34566E-05
+,AZ,,568,0.013323325
+,CA,,2654,0.062253706
+,CO,,662,0.015528242
+,CT,,438,0.010273973
+,DC,,296,0.006943141
+,DE,,98,0.002298743
+,FL,,1495,0.035067555
+,FM,,4,9.38262E-05
+,GA,,973,0.022823231
+,GU,,13,0.000304935
+,HI,,139,0.003260462
+,IA,,1063,0.024934322
+,ID,,325,0.007623381
+,IL,,1590,0.037295928
+,IN,,991,0.023245449
+,KS,,757,0.017756615
+,KY,,966,0.022659035
+,LA,,725,0.017006005
+,MA,,703,0.016489961
+,MD,,622,0.014589979
+,ME,,488,0.011446801
+,MH,,2,4.69131E-05
+,MI,,1170,0.027444173
+,MN,,1031,0.024183712
+,MO,,1173,0.027514543
+,MP,,3,7.03697E-05
+,MS,,533,0.012502346
+,MT,,405,0.009499906
+,NC,,1091,0.025591105
+,ND,,408,0.009570276
+,NE,,621,0.014566523
+,NH,,284,0.006661663
+,NJ,,732,0.017170201
+,NM,,428,0.010039407
+,NV,,254,0.005957966
+,NY,,2208,0.051792081
+,OH,,1447,0.03394164
+,OK,,776,0.018202289
+,OR,,492,0.011540627
+,PA,,2213,0.051909364
+,PR,,176,0.004128354
+,PW,,2,4.69131E-05
+,RI,,91,0.002134547
+,SC,,540,0.012666542
+,SD,,394,0.009241884
+,TN,,796,0.018671421
+,TX,,2658,0.062347532
+,UT,,348,0.008162882
+,VA,,1241,0.029109589
+,VI,,16,0.000375305
+,VT,,309,0.007248077
+,WA,,733,0.017193657
+,WI,,898,0.021063989
+,WV,,857,0.020102271
+,WY,,195,0.004574029
+,,,,
+timezone,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Timezone name from Yahoo,,
+Valid Values,,,714,0.016747983
+,America/Adak,,2,4.69131E-05
+,America/Anchorage,,189,0.00443329
+,America/Boise,,249,0.005840683
+,America/Chicago,,14848,0.34828298
+,America/Denver,,2423,0.056835241
+,America/Detroit,,1133,0.026576281
+,America/Indiana/Ind,,728,0.017076375
+,America/Indiana/Kno,,6,0.000140739
+,America/Indiana/Mar,,8,0.000187652
+,America/Indiana/Pet,,6,0.000140739
+,America/Indiana/Tel,,9,0.000211109
+,America/Indiana/Vev,,5,0.000117283
+,America/Indiana/Vin,,33,0.000774066
+,America/Indiana/Win,,5,0.000117283
+,America/Juneau,,18,0.000422218
+,America/Kentucky/Lo,,111,0.002603678
+,America/Kentucky/Mo,,1,2.34566E-05
+,America/Los_Angeles,,4208,0.098705198
+,America/Menominee,,37,0.000867893
+,America/Metlakatla,,1,2.34566E-05
+,America/New_York,,16925,0.397002252
+,America/Nome,,48,0.001125915
+,America/North_Dakot,,13,0.000304935
+,America/Phoenix,,540,0.012666542
+,America/Puerto_Rico,,176,0.004128354
+,America/Sitka,,14,0.000328392
+,America/St_Thomas,,16,0.000375305
+,America/Yakutat,,1,2.34566E-05
+,Napakiak,,1,2.34566E-05
+,Pacific/Chuuk,,4,9.38262E-05
+,Pacific/Guam,,13,0.000304935
+,Pacific/Honolulu,,139,0.003260462
+,Pacific/Majuro,,2,4.69131E-05
+,Pacific/Pago_Pago,,1,2.34566E-05
+,Pacific/Palau,,2,4.69131E-05
+,Pacific/Saipan,,3,7.03697E-05
+,,,,
+area_codes,,,,
+,,Value,,
+Standard Attributes,Label,Telephone area codes within this Zip from Yahoo,,
+,,,,
+world_region,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,World region,,
+Valid Values,AF,,7,0.000164196
+,AS,,81,0.001899981
+,AU,,6,0.000140739
+,CA,,8,0.000187652
+,EU,,146,0.003424658
+,ME,,80,0.001876525
+,NA,,42299,0.992188966
+,SA,,4,9.38262E-05
+,WW,,1,2.34566E-05
+,,,,
+country,,,,
+,,Value,Count,Percent
+Standard Attributes,Label,Alpha-2 country code,,
+Valid Values,AE,,3,7.03697E-05
+,AF,,22,0.000516044
+,AQ,,1,2.34566E-05
+,AU,,5,0.000117283
+,BA,,1,2.34566E-05
+,BE,,11,0.000258022
+,BG,,1,2.34566E-05
+,BH,,8,0.000187652
+,BS,,1,2.34566E-05
+,CA,,4,9.38262E-05
+,CN,,1,2.34566E-05
+,CU,,3,7.03697E-05
+,CY,,1,2.34566E-05
+,DE,,84,0.001970351
+,DJ,,1,2.34566E-05
+,DK,,1,2.34566E-05
+,EC,,1,2.34566E-05
+,EG,,4,9.38262E-05
+,ES,,4,9.38262E-05
+,FI,,1,2.34566E-05
+,FR,,3,7.03697E-05
+,GB,,15,0.000351848
+,GE,,1,2.34566E-05
+,GI,,1,2.34566E-05
+,GL,,1,2.34566E-05
+,GR,,3,7.03697E-05
+,GY,,1,2.34566E-05
+,HN,,2,4.69131E-05
+,ID,,1,2.34566E-05
+,IL,,3,7.03697E-05
+,IO,,1,2.34566E-05
+,IQ,,35,0.00082098
+,IT,,21,0.000492588
+,JP,,38,0.000891349
+,KG,,1,2.34566E-05
+,KR,,26,0.000609871
+,KW,,7,0.000164196
+,MA,,1,2.34566E-05
+,MH,,2,4.69131E-05
+,NI,,1,2.34566E-05
+,NL,,5,0.000117283
+,NO,,3,7.03697E-05
+,NZ,,1,2.34566E-05
+,OM,,1,2.34566E-05
+,PA,,1,2.34566E-05
+,PH,,3,7.03697E-05
+,PL,,2,4.69131E-05
+,PT,,3,7.03697E-05
+,PY,,1,2.34566E-05
+,QA,,3,7.03697E-05
+,RO,,1,2.34566E-05
+,RU,,1,2.34566E-05
+,SA,,3,7.03697E-05
+,SC,,1,2.34566E-05
+,SG,,1,2.34566E-05
+,SV,,1,2.34566E-05
+,TH,,7,0.000164196
+,TM,,1,2.34566E-05
+,TR,,7,0.000164196
+,US,,42263,0.99134453
+,XK,,1,2.34566E-05
+,,,,
+approximate_latitude,,,,
+,,Value,,
+Standard Attributes,Label,"From National Weather service, precise to approx 1-mile radius",,
+N,Valid,42632,,
+,Missing,0,,
+Central Tendency and Dispersion,Mean,37.83118104,,
+,Standard Deviation,7.322312998,,
+,Percentile 25,34.65,,
+,Percentile 50,39.01,,
+,Percentile 75,41.82,,
+,,,,
+approximate_longitude,,,,
+,,Value,,
+Standard Attributes,Label,"From National Weather service, precise to approx 1-mile radius",,
+N,Valid,42632,,
+,Missing,0,,
+Central Tendency and Dispersion,Mean,-89.3740547,,
+,Standard Deviation,20.00180325,,
+,Percentile 25,-97.13,,
+,Percentile 50,-87.65,,
+,Percentile 75,-79.71,,
+,,,,
+polygon_offset_latitude,,,,
+,,Value,,
+Standard Attributes,Label,Point at the population mean center,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,38.83675192,,
+,Standard Deviation,5.357251914,,
+,Percentile 25,35.4003,,
+,Percentile 50,39.5001,,
+,Percentile 75,42.12335,,
+,,,,
+polygon_offset_longitude,,,,
+,,Value,,
+Standard Attributes,Label,Point at the population mean center,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,-91.01474135,,
+,Standard Deviation,15.12698477,,
+,Percentile 25,-97.24025,,
+,Percentile 50,-88.2034,,
+,Percentile 75,-80.2323,,
+,,,,
+internal_point_latitude,,,,
+,,Value,,
+Standard Attributes,Label,Point centered within largest section of ZIP code,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,38.8366998,,
+,Standard Deviation,5.356991206,,
+,Percentile 25,35.4003999,,
+,Percentile 50,39.49752685,,
+,Percentile 75,42.1225953,,
+,,,,
+internal_point_longitude,,,,
+,,Value,,
+Standard Attributes,Label,Point centered within largest section of ZIP code,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,-91.01619305,,
+,Standard Deviation,15.12787577,,
+,Percentile 25,-97.2464198,,
+,Percentile 50,-88.20315205,,
+,Percentile 75,-80.23218425,,
+,,,,
+latitude_min,,,,
+,,Value,,
+Standard Attributes,Label,Point closest to the geographic center that remains inside the ZIP,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,38.76030106,,
+,Standard Deviation,5.350255006,,
+,Percentile 25,35.3138,,
+,Percentile 50,39.4363,,
+,Percentile 75,42.0654,,
+,,,,
+latitude_max,,,,
+,,Value,,
+Standard Attributes,Label,Point closest to the geographic center that remains inside the ZIP,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,38.91262394,,
+,Standard Deviation,5.364019921,,
+,Percentile 25,35.4911,,
+,Percentile 50,39.56915,,
+,Percentile 75,42.18545,,
+,,,,
+longitude_min,,,,
+,,Value,,
+Standard Attributes,Label,The min latitude to determine ZIP code bounding box,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,-91.11378912,,
+,Standard Deviation,15.16223997,,
+,Percentile 25,-97.34155,,
+,Percentile 50,-88.29125,,
+,Percentile 75,-80.2884,,
+,,,,
+longitude_max,,,,
+,,Value,,
+Standard Attributes,Label,The max longitude to determine ZIP code bounding box,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,-90.91889723,,
+,Standard Deviation,15.09421306,,
+,Percentile 25,-97.15125,,
+,Percentile 50,-88.1247,,
+,Percentile 75,-80.17885,,
+,,,,
+area_land,,,,
+,,Value,,
+Standard Attributes,Label,Land area in square meters (divide by 2589988.110336 for sq mi),,
+N,Valid,33121,,
+,Missing,9511,,
+Central Tendency and Dispersion,Mean,224361492.4,,
+,Standard Deviation,656220634.2,,
+,Percentile 25,23458757,,
+,Percentile 50,92942861,,
+,Percentile 75,229345847,,
+,,,,
+area_water,,,,
+,,Value,,
+Standard Attributes,Label,Water area in square meters (divide by 2589988.110336 for sq mi),,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,5110420.744,,
+,Standard Deviation,33072709.3,,
+,Percentile 25,57647.5,,
+,Percentile 50,578712,,
+,Percentile 75,2766000.5,,
+,,,,
+housing_count,,,,
+,,Value,,
+Standard Attributes,Label,Housing units using 2010 Census; counts households instead of number of buildings,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,4025.72811,,
+,Standard Deviation,5591.951198,,
+,Percentile 25,365,,
+,Percentile 50,1327,,
+,Percentile 75,5653.5,,
+,,,,
+population_count,,,,
+,,Value,,
+Standard Attributes,Label,Population using 2010 Census data,,
+N,Valid,33121,,
+,Missing,9511,,
+Central Tendency and Dispersion,Mean,9434.935449,,
+,Standard Deviation,13754.2661,,
+,Percentile 25,734,,
+,Percentile 50,2806,,
+,Percentile 75,12946,,
+,,,,
+irs_estimated_population_2015,,,,
+,,Value,,
+Standard Attributes,Label,Estimated population using 2010 Census data,,
+N,Valid,27678,,
+,Missing,14954,,
+Central Tendency and Dispersion,Mean,10167.01568,,
+,Standard Deviation,13601.51436,,
+,Percentile 25,1150,,
+,Percentile 50,3760,,
+,Percentile 75,14630,,
+,,,,
+white,,,,
+,,Value,,
+Standard Attributes,Label,White population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,6834.94837,,
+,Standard Deviation,9550.897627,,
+,Percentile 25,616,,
+,Percentile 50,2318.5,,
+,Percentile 75,9398.5,,
+,,,,
+black_or_african_american,,,,
+,,Value,,
+Standard Attributes,Label,Black or African American population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1189.288013,,
+,Standard Deviation,3785.755738,,
+,Percentile 25,2,,
+,Percentile 50,30,,
+,Percentile 75,583,,
+,,,,
+american_indian_or_alaskan_native,,,,
+,,Value,,
+Standard Attributes,Label,American Indian population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,89.11687802,,
+,Standard Deviation,348.0223451,,
+,Percentile 25,2,,
+,Percentile 50,12,,
+,Percentile 75,59,,
+,,,,
+asian,,,,
+,,Value,,
+Standard Attributes,Label,Asian population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,443.2638587,,
+,Standard Deviation,1818.760745,,
+,Percentile 25,1,,
+,Percentile 50,11,,
+,Percentile 75,141,,
+,,,,
+native_hawaiian_and_other_pacific_islander,,,,
+,,Value,,
+Standard Attributes,Label,Native Hawaiian population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,16.31539855,,
+,Standard Deviation,153.5306899,,
+,Percentile 25,0,,
+,Percentile 50,0,,
+,Percentile 75,5,,
+,,,,
+other_race,,,,
+,,Value,,
+Standard Attributes,Label,Other race population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,585.6373188,,
+,Standard Deviation,2143.02967,,
+,Percentile 25,3,,
+,Percentile 50,22,,
+,Percentile 75,219,,
+,,,,
+two_or_more_races,,,,
+,,Value,,
+Standard Attributes,Label,Two or more race population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,275.6993961,,
+,Standard Deviation,605.184897,,
+,Percentile 25,9,,
+,Percentile 50,41,,
+,Percentile 75,261,,
+,,,,
+total_male_population,,,,
+,,Value,,
+Standard Attributes,Label,Total male population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,4636.475755,,
+,Standard Deviation,6722.503434,,
+,Percentile 25,371,,
+,Percentile 50,1408,,
+,Percentile 75,6393,,
+,,,,
+total_female_population,,,,
+,,Value,,
+Standard Attributes,Label,Total female population using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,4797.793478,,
+,Standard Deviation,7048.719587,,
+,Percentile 25,359,,
+,Percentile 50,1387,,
+,Percentile 75,6558.5,,
+,,,,
+pop_under_10,,,,
+,,Value,,
+Standard Attributes,Label,Population under 10 using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1238.35628,,
+,Standard Deviation,1974.529574,,
+,Percentile 25,80,,
+,Percentile 50,329,,
+,Percentile 75,1590,,
+,,,,
+pop_10_to_19,,,,
+,,Value,,
+Standard Attributes,Label,Population 10 to 19 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1306.444988,,
+,Standard Deviation,2011.16059,,
+,Percentile 25,94,,
+,Percentile 50,378,,
+,Percentile 75,1721.5,,
+,,,,
+pop_20_to_29,,,,
+,,Value,,
+Standard Attributes,Label,Population 20 to 29 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1304.066002,,
+,Standard Deviation,2253.467092,,
+,Percentile 25,69,,
+,Percentile 50,289,,
+,Percentile 75,1508,,
+,,,,
+pop_30_to_39,,,,
+,,Value,,
+Standard Attributes,Label,Population 30 to 39 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1226.735809,,
+,Standard Deviation,1959.085586,,
+,Percentile 25,75,,
+,Percentile 50,311.5,,
+,Percentile 75,1547,,
+,,,,
+pop_40_to_49,,,,
+,,Value,,
+Standard Attributes,Label,Population 40 to 49 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1331.17654,,
+,Standard Deviation,1958.78435,,
+,Percentile 25,99,,
+,Percentile 50,395,,
+,Percentile 75,1813,,
+,,,,
+pop_50_to_59,,,,
+,,Value,,
+Standard Attributes,Label,Population 50 to 59 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,1280.958243,,
+,Standard Deviation,1781.966787,,
+,Percentile 25,113,,
+,Percentile 50,422,,
+,Percentile 75,1815.5,,
+,,,,
+pop_60_to_69,,,,
+,,Value,,
+Standard Attributes,Label,Population 60 to 69 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,895.1120471,,
+,Standard Deviation,1227.064965,,
+,Percentile 25,85,,
+,Percentile 50,314,,
+,Percentile 75,1277,,
+,,,,
+pop_70_to_79,,,,
+,,Value,,
+Standard Attributes,Label,Population 70 to 79 years old using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,508.2355072,,
+,Standard Deviation,731.3374551,,
+,Percentile 25,49,,
+,Percentile 50,177,,
+,Percentile 75,698,,
+,,,,
+pop_80_plus,,,,
+,,Value,,
+Standard Attributes,Label,Population 80 years or older using 2010 Census data,,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,343.1838164,,
+,Standard Deviation,543.8743396,,
+,Percentile 25,25,,
+,Percentile 50,98,,
+,Percentile 75,436,,
+,,,,
+area_land_sqmi,,,,
+,,Value,,
+Standard Attributes,Label,"Calculated, converted from area_land_ZIP",,
+N,Valid,33121,,
+,Missing,9511,,
+Central Tendency and Dispersion,Mean,86.62645676,,
+,Standard Deviation,253.368204,,
+,Percentile 25,9.057476739,,
+,Percentile 50,35.88543935,,
+,Percentile 75,88.55092682,,
+,,,,
+popdensity,,,,
+,,Value,,
+Standard Attributes,Label,"Calculated from population_count and area_land_sqmi, agg from city if missing, then county",,
+N,Valid,41878,,
+,Missing,754,,
+Central Tendency and Dispersion,Mean,1766.180889,,
+,Standard Deviation,5387.456469,,
+,Percentile 25,29.09490888,,
+,Percentile 50,149.6055376,,
+,Percentile 75,1678.279229,,
+,,,,
+popdensityCITY_mean,,,,
+,,Value,,
+Standard Attributes,Label,Aggregate mean of city data,,
+N,Valid,39695,,
+,Missing,2937,,
+Central Tendency and Dispersion,Mean,1811.860631,,
+,Standard Deviation,4749.047616,,
+,Percentile 25,28.58165829,,
+,Percentile 50,157.7635647,,
+,Percentile 75,1944.202666,,
+,,,,
+popdensityCOUNTY_mean,,,,
+,,Value,,
+Standard Attributes,Label,Aggregate mean of county data,,
+N,Valid,41857,,
+,Missing,775,,
+Central Tendency and Dispersion,Mean,1766.687925,,
+,Standard Deviation,4391.188374,,
+,Percentile 25,67.47858707,,
+,Percentile 50,354.6856692,,
+,Percentile 75,2052.493529,,
+,,,,
+popdensityAC_mean,,,,
+,,Value,,
+Standard Attributes,Label,Aggregate mean of county data,,
+N,Valid,41878,,
+,Missing,754,,
+Central Tendency and Dispersion,Mean,1766.180889,,
+,Standard Deviation,4315.991786,,
+,Percentile 25,275.6722637,,
+,Percentile 50,652.5349487,,
+,Percentile 75,1689.385903,,
+,,,,
+popdensityCITY_alt_1_mean,,,,
+,,Value,,
+Standard Attributes,Label,Aggregate mean of city data,,
+N,Valid,41878,,
+,Missing,754,,
+Central Tendency and Dispersion,Mean,1766.180889,,
+,Standard Deviation,2759.068477,,
+,Percentile 25,463.8498208,,
+,Percentile 50,1087.380621,,
+,Percentile 75,1809.968941,,
+,,,,
+ZPOP,,,,
+,,Value,,
+Standard Attributes,Label,"2010 Census population for ZCTA (Zip Code Tabulation Area, synonymous here with Zip Code)",,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,9434.269233,,
+,Standard Deviation,13753.93933,,
+,Percentile 25,734,,
+,Percentile 50,2805.5,,
+,Percentile 75,12944,,
+,,,,
+ZHU,,,,
+,,Value,,
+Standard Attributes,Label,"2010 Census housing unit count for ZCTA (Zip Code Tabulation Area, synonymous here with Zip Code)",,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,4025.72811,,
+,Standard Deviation,5591.951198,,
+,Percentile 25,365,,
+,Percentile 50,1327,,
+,Percentile 75,5653.5,,
+,,,,
+ZAREA,,,,
+,,Value,,
+Standard Attributes,Label,"2010 Census area in square meters for ZCTA (Zip Code Tabulation Area, synonymous here with Zip Code)",,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,229477749,,
+,Standard Deviation,670329530.7,,
+,Percentile 25,24944674,,
+,Percentile 50,95884484,,
+,Percentile 75,234054970,,
+,,,,
+ZAREALAND,,,,
+,,Value,,
+Standard Attributes,Label,"2010 Census land area in square meters for ZCTA (Zip Code Tabulation Area, synonymous here with Zip Code)",,
+N,Valid,33120,,
+,Missing,9512,,
+Central Tendency and Dispersion,Mean,224367328.2,,
+,Standard Deviation,656229681.7,,
+,Percentile 25,23441936,,
+,Percentile 50,92949307,,
+,Percentile 75,229363625,,
+,,,,
+LGEOCODE.1,,,,
+,,Value,,
+Standard Attributes,Label,LGEOCODE.1: State-County-Tract FIPS Code (lookup by address at http://www.ffiec.gov/Geocode/),,
