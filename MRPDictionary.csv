@@ -1,0 +1,5477 @@
+Codebook,,
+,,
+,,
+Birth_M,,
+,,Value
+Standard Attributes,Label,What is your birth year and month? Month
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,January
+,2,February
+,3,March
+,4,April
+,5,May
+,6,June
+,7,July
+,8,August
+,9,September
+,10,October
+,11,November
+,12,December
+,,
+Birth_Y,,
+,,Value
+Standard Attributes,Label,What is your birth year?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1900,1900
+,1901,1901
+,1902,1902
+,1903,1903
+,1904,1904
+,1905,1905
+,1906,1906
+,1907,1907
+,1908,1908
+,1909,1909
+,1910,1910
+,1911,1911
+,1912,1912
+,1913,1913
+,1914,1914
+,1915,1915
+,1916,1916
+,1917,1917
+,1918,1918
+,1919,1919
+,1920,1920
+,1921,1921
+,1922,1922
+,1923,1923
+,1924,1924
+,1925,1925
+,1926,1926
+,1927,1927
+,1928,1928
+,1929,1929
+,1930,1930
+,1931,1931
+,1932,1932
+,1933,1933
+,1934,1934
+,1935,1935
+,1936,1936
+,1937,1937
+,1938,1938
+,1939,1939
+,1940,1940
+,1941,1941
+,1942,1942
+,1943,1943
+,1944,1944
+,1945,1945
+,1946,1946
+,1947,1947
+,1948,1948
+,1949,1949
+,1950,1950
+,1951,1951
+,1952,1952
+,1953,1953
+,1954,1954
+,1955,1955
+,1956,1956
+,1957,1957
+,1958,1958
+,1959,1959
+,1960,1960
+,1961,1961
+,1962,1962
+,1963,1963
+,1964,1964
+,1965,1965
+,1966,1966
+,1967,1967
+,1968,1968
+,1969,1969
+,1970,1970
+,1971,1971
+,1972,1972
+,1973,1973
+,1974,1974
+,1975,1975
+,1976,1976
+,1977,1977
+,1978,1978
+,1979,1979
+,1980,1980
+,1981,1981
+,1982,1982
+,1983,1983
+,1984,1984
+,1985,1985
+,1986,1986
+,1987,1987
+,1988,1988
+,1989,1989
+,1990,1990
+,1991,1991
+,1992,1992
+,1993,1993
+,1994,1994
+,1995,1995
+,1996,1996
+,1997,1997
+,1998,1998
+,1999,1999
+,2000,2000
+,2001,2001
+,2002,2002
+,2003,2003
+,2004,2004
+,2005,2005
+,,
+HispLat,,
+,,Value
+Standard Attributes,Label,Do you consider yourself Hispanic or Latino?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+RaceEth_1,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-American Indian or Alaska Native
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_2,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-Asian
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_3,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-Black/African American
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_4,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-Native Hawaiian or Other Pacific Islander
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_5,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-White
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_6,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-Other (Please specify):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+,,
+RaceEth_6_TEXT,,
+,,Value
+Standard Attributes,Label,Which racial or ethnic group do you belong to? (Please select all that apply)-Other (Please specify):-TEXT
+,Type,String
+,Format,A120
+,Measurement,Nominal
+,,
+Multiracial,,
+,,Value
+Standard Attributes,Label,More than one race selected in check-all-that-apply (Y/N)
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+RaceEth,,
+,,Value
+Standard Attributes,Label,7 category race/ethnicity variable
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Black
+,2,Latino
+,3,White
+,4,American Indian or Alaskan Native
+,5,Asian
+,6,Native Hawaiian/Other Pac Islander
+,7,Multiracial
+,8,Other
+,,
+Race6cat,,
+,,Value
+Standard Attributes,Label,6 category race/ethnicity variable
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Black
+,2,Latino
+,3,White
+,4,American Indian or Alaskan Native
+,5,Asian/Native Hawaiian/Other Pac Islander
+,6,Multiracial/Other
+,,
+Race5cat,,
+,,Value
+Standard Attributes,Label,5 category race/ethnicity variable
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Black
+,2,Latino
+,3,White
+,4,Multiracial
+,5,Other
+,,
+Race4cat,,
+,,Value
+Standard Attributes,Label,4 category race/ethnicity variable
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Black
+,2,Latino
+,3,White
+,4,Other
+,,
+WhiteYN,,
+,,Value
+Standard Attributes,Label,Race = White from Race4cat
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+BlackYN,,
+,,Value
+Standard Attributes,Label,Race = Black from Race4cat
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+LatinoYN,,
+,,Value
+Standard Attributes,Label,Race = Latino from Race4cat
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,.00,No
+,1.00,Yes
+,,
+OtherYN,,
+,,Value
+Standard Attributes,Label,Race = Other from Race4cat
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,.00,No
+,1.00,Yes
+,,
+Employ,,
+,,Value
+Standard Attributes,Label,Which of the following best describes your current employment status?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Full-time (40 hours per week)
+,2,Part-time (less than 40 hours per week)
+,3,Part-time work - full time student
+,4,Permanent or temporary disabled and NOT working
+,5,"Permanent or temporary disabled BUT working “off the books” (or ""under the table"")"
+,6,Unemployed -- Student
+,7,Unemployed -- Other
+,,
+Income,,
+,,Value
+Standard Attributes,Label,Which best describes your total yearly income during the last year?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"Less than $10,000"
+,2,"$10,000 to $19,999"
+,3,"$20,000 to $29,999"
+,4,"$30,000 to $39,999"
+,5,"$40,000 to $49,999"
+,6,"$50,000 to $74,999"
+,7,"$75,000 to $99,999"
+,8,"$100,000 to $149,999"
+,9,"$150,000 to $199,999"
+,10,"$200,000 to $249,999"
+,11,"$250,000 or more"
+,,
+Educ,,
+,,Value
+Standard Attributes,Label,What's the highest grade of school you have completed?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Some high school
+,2,High School Diploma or GED
+,3,Some College or Associates Degree
+,4,Currently enrolled in college
+,5,"4-Year College Degree (BA, BS, BFA)"
+,6,Graduate School
+,,
+Gender,,
+,,Value
+Standard Attributes,Label,Which best describes your gender identity?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Male
+,2,Female
+,3,Transgender male (female-to-male)
+,4,Transgender female (male-to-female)
+,5,Other (Please specify):
+,,
+Gender_TEXT,,
+,,Value
+Standard Attributes,Label,Which best describes your gender identity?-TEXT
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+Sx_Orient,,
+,,Value
+Standard Attributes,Label,Which best describes how you identify your sexual orientation?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"Gay, Queer, or Homosexual"
+,2,Bisexual
+,3,Heterosexual/Straight
+,4,Other (Please specify):
+,,
+Sx_Orient_TEXT,,
+,,Value
+Standard Attributes,Label,Which best describes how you identify your sexual orientation?-TEXT
+,Type,String
+,Format,A111
+,Measurement,Nominal
+,,
+Live_US,,
+,,Value
+Standard Attributes,Label,Do you live in the United States?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+Live_NYC,,
+,,Value
+Standard Attributes,Label,Do you live in the New York City metropolitan area or visit at least weekly?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+ZIP,,
+,,Value
+Standard Attributes,Label,What is the zip code of your home address?
+,Type,Numeric
+,Format,F5
+,Measurement,Nominal
+,,
+PlaceName,,
+,,Value
+Standard Attributes,Label,Place Name
+,Type,String
+,Format,A25
+,Measurement,Nominal
+,,
+County,,
+,,Value
+Standard Attributes,Label,County indicated by ZIP
+,Type,String
+,Format,A22
+,Measurement,Nominal
+,,
+State,,
+,,Value
+Standard Attributes,Label,State indicated by ZIP
+,Type,String
+,Format,A20
+,Measurement,Nominal
+,,
+StateAbbreviation,,
+,,Value
+Standard Attributes,Label,State Abbreviation
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+Population,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F11
+,Measurement,Scale
+,,
+LandAreaSqMi,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F13.12
+,Measurement,Scale
+,,
+PopDens,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F13.12
+,Measurement,Scale
+,,
+RUCA20,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F11
+,Measurement,Scale
+,,
+FIPScode,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,N2
+,Measurement,Scale
+,,
+Region,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Northeast
+,2.00,Midwest
+,3.00,South
+,4.00,West
+,5.00,U.S. Possession
+,6.00,Military Overseas
+,,
+Division,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,New England
+,2.00,Middle Atlantic
+,3.00,East North Central
+,4.00,West North Central
+,5.00,South Atlantic
+,6.00,East South Central
+,7.00,West South Central
+,8.00,Mountain
+,9.00,Pacific
+,10.00,U.S. Possession
+,11.00,Military Overseas
+,,
+Out,,
+,,Value
+Standard Attributes,Label,How “out” would you say you are with regard to your sexual orientation?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Not at all
+,2,Somewhat
+,3,Mostly
+,4,Completely
+,,
+Sx_12M,,
+,,Value
+Standard Attributes,Label,Have you engaged in some form of sexual activity with a man in the past year?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+Sx_Pstn,,
+,,Value
+Standard Attributes,Label,Which sexual position do you identify as?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Top
+,2,Versatile/Top
+,3,Versatile
+,4,Versatile/Bottom
+,5,Bottom
+,,
+Stigma_1,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about body image (e.g., “no fats,” “in shape only”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_2,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about race/ethnicity (e.g., racial slurs, “white men only”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_3,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about sexual behavior (e.g., slut-shaming, calling men “promiscuous”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_4,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about HIV status (e.g., “clean only,” “must be neg”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_5,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about masculinity (e.g., “masc4masc,” “no fems”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_6,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about age (e.g., “under 30 only”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_7,,
+,,Value
+Standard Attributes,Label,"How often do you encounter negative messages about income/employment (e.g., “must have a job”)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_8,,
+,,Value
+Standard Attributes,Label,How often do you encounter negative messages about other common negative messages?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Never
+,1,Rarely
+,2,Sometimes
+,3,Often
+,4,Most of the Time
+,,
+Stigma_8_TEXT,,
+,,Value
+Standard Attributes,Label,Please specify what other negative messages you encounter
+,Type,String
+,Format,A407
+,Measurement,Nominal
+,,
+SWGC_Score,,
+,,Value
+Standard Attributes,Label,Stigma Within the Gay Community
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+,,
+SU_6M_1,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: cocaine
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_2,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: crystal meth
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_3,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: ecstasy
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_4,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: GHB/GBL/etc
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_5,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: ketamine
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_6,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: heroin/opiates
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_7,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: marijuana/hash
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_8,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: crack
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_9,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: poppers
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_10,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: Viagra/Levitra/Cialis
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_11,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: Rx stimulants
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_12,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: Rx sedatives
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_6M_13,,
+,,Value
+Standard Attributes,Label,Substance use in last 6M: Rx pain killers
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU_3M_Days_x1,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Cocaine
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x2,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Crystal Meth
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x3,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Ecstasy
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x4,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-GHB/GBL/etc
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x5,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Ketamine
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x6,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Heroin/Opiates
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x7,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Marijuana/hash
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x8,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Crack
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x9,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Poppers
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x10,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Viagra/Levitra/Cialis
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x11,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Prescription stimulants
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x12,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Prescription sedatives
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+SU_3M_Days_x13,,
+,,Value
+Standard Attributes,Label, During the last 3 months how many days have you used:-Prescription pain killers
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,
+,997,No use of this drug in last 6M
+,,
+AnyDrugsYN_6M,,
+,,Value
+Standard Attributes,Label,Participant used drugs in the past 6 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+AnyDrugsYN_3M,,
+,,Value
+Standard Attributes,Label,Participant used drugs in the past 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+ClubDrugsYN_6M,,
+,,Value
+Standard Attributes,Label,"Participant used club drugs in the past 6 months (Crack/Cocaine, Ecstasy, GHB, Ketamine, Meth)"
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+ClubDrugsYN_3M,,
+,,Value
+Standard Attributes,Label,"Participant used club drugs in the past 3 months (Crack/Cocaine, Ecstasy, GHB, Ketamine, Meth)"
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mcoc,,
+,,Value
+Standard Attributes,Label,Cocaine use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mmeth,,
+,,Value
+Standard Attributes,Label,Crystal meth use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mecst,,
+,,Value
+Standard Attributes,Label,Ecstasy use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mghb,,
+,,Value
+Standard Attributes,Label,GHB/GBL/etc use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mK,,
+,,Value
+Standard Attributes,Label,Ketamine use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mhron,,
+,,Value
+Standard Attributes,Label,Heroin/Opiates use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mMJ,,
+,,Value
+Standard Attributes,Label,Marijuana/hash use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mcrk,,
+,,Value
+Standard Attributes,Label,Crack use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mpop,,
+,,Value
+Standard Attributes,Label,Popper use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mED,,
+,,Value
+Standard Attributes,Label,Viagra/Levitra/Cialis use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mRxstim,,
+,,Value
+Standard Attributes,Label,Rx stimulant use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mRxsed,,
+,,Value
+Standard Attributes,Label,Rx sedative use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3mRxpain,,
+,,Value
+Standard Attributes,Label,Rx pain killer use in last 3 months
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,,
+SU3Msum,,
+,,Value
+Standard Attributes,Label,"Past 3M number of drugs used: Cocaine, Crystal Meth, Ecstasy, GHB/GBL/etc, Heroin/Opiates, Ketamine, Marijuana/hash, Crack, Poppers, Viagra/Levitra/Cialis, Rx stimulants, Rx sedatives, Rx pain killers"
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+,,
+PolySubsum,,
+,,Value
+Standard Attributes,Label,"Past 3M number of drugs used: Cocaine, Crystal Meth, Ecstasy, GHB/GBL/etc, Heroin/Opiates, Ketamine, Marijuana/hash, Crack, Poppers, Rx stimulants, sedatives and pain killers, no ED"
+,Type,Numeric
+,Format,F2
+,Measurement,Nominal
+,,
+Alch_6M,,
+,,Value
+Standard Attributes,Label, How often in the past 6 months did you have a drink containing alcohol?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Never
+,1,Monthly or Less
+,2,2-4 times a month
+,3,2-3 times a week
+,4,4 or more times a week
+,,
+DrinksPerDay_6M,,
+,,Value
+Standard Attributes,Label,"In the past 6 months, how many standard drinks containing alcohol did you have on a typical day w..."
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,1 or 2
+,2,3 or 4
+,3,5 or 6
+,4,7 to 9
+,5,10 or more
+,,
+DrinksGE6_6M,,
+,,Value
+Standard Attributes,Label,"In the past 6 months, how often did you have six or more drinks on one occasion?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Never
+,1,Less than monthly
+,2,Monthly
+,3,Weekly
+,4,Daily or almost daily
+,,
+Cig_6M,,
+,,Value
+Standard Attributes,Label,"In the past 6 months, have you smoked cigarettes?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,"No, not in the past 6 months"
+,1,"Yes, less than one day per week"
+,2,"Yes, 2-3 days per week"
+,3,"Yes, almost every day"
+,4,"Yes, up to 1 pack per day"
+,5,"Yes, more than 1 pack per day"
+,,
+Steroid,,
+,,Value
+Standard Attributes,Label,Have you ever used testosterone or another anabolic steroid for the purpose of gaining body mass?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,"No, never"
+,1,"Yes, more than 5 years ago"
+,2,"Yes, 3-4 years ago"
+,3,"Yes, 1-2 years ago"
+,4,"Yes, within the past year"
+,,
+HIV_status,,
+,,Value
+Standard Attributes,Label, What is your HIV status?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Negative
+,1,Positive
+,2,I don’t know
+,,
+HIV_testdte,,
+,,Value
+Standard Attributes,Label,When was the last time you received an HIV test?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Within the last month
+,2,1-3 months ago
+,3,3-6 months ago
+,4,6-12 months ago
+,5,1 to 2 years ago
+,6,More than 2 years ago
+,7,I&rsquo;ve never been tested
+,997,HIV+ participant
+,,
+HIV_testfreq,,
+,,Value
+Standard Attributes,Label,How often do you typically get tested for HIV?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Never
+,1,Less than once a year
+,2,Once a year
+,3,Once every six months
+,4,Once every three months
+,5,Once a month
+,6,Once every two weeks
+,997,HIV+ participant
+,,
+HIV_testloc,,
+,,Value
+Standard Attributes,Label,Where did you get your last (most recent) HIV test?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Department of Health (DOH)
+,2,GLBT community service provider
+,3,Other community center/service providers
+,4,Primary care doctor/Medical office
+,5,Mobile testing van
+,6,On-site testing (e.g. at a bar or bathhouse)
+,7,Other (Please specify)
+,997,Participant is HIV+ or has never been tested for HIV
+,,
+HIV_testloc_TEXT,,
+,,Value
+Standard Attributes,Label,Where did you get your last (most recent) HIV test?-TEXT
+,Type,String
+,Format,A117
+,Measurement,Nominal
+,,
+HIV_prob,,
+,,Value
+Standard Attributes,Label,I think my chances of getting infected with HIV are
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Zero
+,1,Almost zero
+,2,Small
+,3,Moderate
+,4,Large
+,5,Very large
+,997,HIV+ participant
+,,
+HIV6_1_TEXT,,
+,,Value
+Standard Attributes,Label,"In what month and year were you diagnosed with HIV (i.e., when did you first test positive)?-Month (MM)"
+,Type,Numeric
+,Format,F4
+,Measurement,Scale
+Labeled Values,997,HIV- participant
+,,
+HIV6_2_TEXT,,
+,,Value
+Standard Attributes,Label,"In what month and year were you diagnosed with HIV (i.e., when did you first test positive)?-Year (YYYY)"
+,Type,Numeric
+,Format,F4
+,Measurement,Scale
+Labeled Values,997,HIV- participant
+,,
+HIV7,,
+,,Value
+Standard Attributes,Label,"Have you begun taking HIV medication (i.e., antiviral medications)?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,HIV- participant
+,,
+MedAd,,
+,,Value
+Standard Attributes,Label,"Over the last 4 weeks, how good a job did you do at taking your HIV medication in the way you wer..."
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Very poor
+,2,Poor
+,3,Fair
+,4,Good
+,5,Very good
+,6,Excellent
+,997,Participant has not begun HIV medication
+,,
+MedAd_1M_1,,
+,,Value
+Standard Attributes,Label,How much of your prescribed HIV medication have you taken in the last 4 weeks?   0% means you hav...-Percentage of HIV medication taken
+,Type,Numeric
+,Format,F4
+,Measurement,Scale
+Labeled Values,997,Participant has not begun HIV medication
+,,
+VL_testdte,,
+,,Value
+Standard Attributes,Label,When was your most recent viral load test?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,3 or fewer months ago
+,2,4-6 months ago
+,3,7-12 months ago
+,4,Over a year ago
+,997,HIV- participant
+,,
+VL,,
+,,Value
+Standard Attributes,Label,What were the results of your most recent viral load test?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Undetectable
+,1,Detectable
+,2,Not sure/don’t remember
+,997,HIV- participant
+,,
+VL_detdte,,
+,,Value
+Standard Attributes,Label,When was the last time you had a viral load test in which you were “detectable”?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Never
+,1,3 or fewer months ago
+,2,4-6 months ago
+,3,7-12 months ago
+,4,Over a year ago
+,997,HIV- participant
+,,
+HIV_treatloc_1,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Community center
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Community center
+,997,HIV- participant
+,,
+HIV_treatloc_2,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Medical office from a primary doctor
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Medical office from a primary doctor
+,997,HIV- participant
+,,
+HIV_treatloc_3,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Specialist
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Specialist
+,997,HIV- participant
+,,
+HIV_treatloc_4,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Free clinic
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Free clinic
+,997,HIV- participant
+,,
+HIV_treatloc_5,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Other (Please specify)
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Other
+,997,HIV- participant
+,,
+HIV_treatloc_5_TEXT,,
+,,Value
+Standard Attributes,Label,Where do you currently receive treatment for HIV? (Select all that apply)-Other (Please specify)-TEXT
+,Type,String
+,Format,A60
+,Measurement,Nominal
+,,
+AIDS,,
+,,Value
+Standard Attributes,Label,Have you ever received an AIDS diagnosis?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Yes
+,2,No
+,3,I don't know
+Missing Values,997,HIV- participant
+,,
+HIVSTI_1,,
+,,Value
+Standard Attributes,Label,"With regard to HIV-positive individuals transmitting HIV through sexual contact, how accurate do..."
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Completely accurate
+,2,Somewhat accurate
+,3,Somewhat inaccurate
+,4,Completely inaccurate
+,5,I don’t know what “undetectable” means
+,,
+HIVSTI_2,,
+,,Value
+Standard Attributes,Label,"How concerned are you about getting a sexually transmitted infection other than HIV (e.g., gonorr..."
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,Not at all concerned
+,2,Somewhat not concerned
+,3,Neither
+,4,Somewhat concerned
+,5,Very concerned
+,,
+HIVSTI_3_1,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with chlamydia?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_2,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with gonorrhea?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_3,,
+,,Value
+Standard Attributes,Label,"Have you ever been diagnosed with genital warts, anal warts, HPV?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_4,,
+,,Value
+Standard Attributes,Label,"Have you ever been diagnosed with herpes, HSV1, HSV2?"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_5,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with syphilis?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_6,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with hepatitis C?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_7,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with hepatitis B?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_3_8,,
+,,Value
+Standard Attributes,Label,Have you ever been diagnosed with urethritis?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,1,"No, I&rsquo;ve never been tested"
+,2,"No, I have been tested but never diagnosed"
+,3,"Yes, I tested positive 5+ years ago"
+,4,"Yes, I tested positive 1-5 years ago"
+,5,"Yes, I tested positive 6-12 months ago"
+,6,"Yes, I tested positive in the past 6 months"
+,,
+HIVSTI_4,,
+,,Value
+Standard Attributes,Label,"Did you receive treatment for a positive diagnosis of chlamydia, gonorrhea, syphilis or urethritis?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,"Participant not tested for/diagnosed with Chlamydia, Gonorrhea, Syphilis, or Urethritis"
+,,
+MP,,
+,,Value
+Standard Attributes,Label,As of today do you have a main partner? A main partner is someone with whom your relationship is...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,,
+MP_Dur,,
+,,Value
+Standard Attributes,Label,How long have you been with your main partner?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Less than 3 months
+,2,3-12 months
+,3,1-2 years
+,4,3-5 years
+,5,More than 5 years
+,997,Participant indicated no main partner
+,,
+RelStat,,
+,,Value
+Standard Attributes,Label, How would you define your relationship status with your main partner?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,We are legally married
+,2,We have another legal arrangement such as a civil union or domestic partnership
+,3,We are partners/lovers
+,4,This is my boyfriend/girlfriend
+,5,We are casually dating
+,6,Other (please specify):
+,997,Participant indicated no main partner
+,,
+RelStat_TEXT,,
+,,Value
+Standard Attributes,Label, How would you define your relationship status with your main partner?-TEXT
+,Type,String
+,Format,A131
+,Measurement,Nominal
+,,
+MP_Age,,
+,,Value
+Standard Attributes,Label,What is your partner’s age?
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated no main partner
+,,
+MP_Gender,,
+,,Value
+Standard Attributes,Label,What is your main partner’s gender?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Male
+,1,Female
+,2,Transgender – male to female
+,3,Transgender – female to male
+,997,Participant indicated no main partner
+,,
+MP_xSx,,
+,,Value
+Standard Attributes,Label,How do you and your partner handle sex outside of your relationship?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Neither of us has sex w/ others, we are monogamous"
+,2,Only I have sex w/others
+,3,Only he has sex w/others
+,4,Both of us have sex w/others separately
+,5,Both of us have sex w/others together
+,6,We both have sex w/others separately and together
+,7,I have sex w/ others don’t know about my partner
+,8,I don’t have sex w/others don’t know about my partner
+,997,Participant indicated no main partner
+,,
+MP_C,,
+,,Value
+Standard Attributes,Label,Do you and your partner ever use condoms when the two of you have anal sex with each other?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,"No, never"
+,1,"Yes, always"
+,2,"Yes, sometimes"
+,3,"Not applicable, we don’t have anal sex"
+,997,Participant indicated no main partner
+,,
+MP_C_6M,,
+,,Value
+Standard Attributes,Label, Have you and your partner had any anal sex without a condom with each other in the past 6 months?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,Participant indicated no main partner
+,,
+MP_HIVstatus,,
+,,Value
+Standard Attributes,Label,What is your main partner’s HIV status?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,I know my partner is HIV-negative
+,1,I know my partner is HIV-positive
+,2,I don’t know for sure
+,997,Participant indicated no main partner
+,,
+MP_VL,,
+,,Value
+Standard Attributes,Label,Is your main partner’s HIV viral load undetectable? Being undetectable means that their HIV treat...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,2,I don’t know
+,997,Participant has no main partner/main partner not HIV+
+,,
+MP_PrEP,,
+,,Value
+Standard Attributes,Label,Is your main partner on pre-exposure prophylaxis (PrEP)?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,2,I don’t know
+,997,Participant has no main partner/main partner is HIV+
+,,
+MP_UrStatus,,
+,,Value
+Standard Attributes,Label,Have you told your main partner your HIV status?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Yes, I&rsquo;ve told him/her my HIV status"
+,2,"No, I’ve never told him/her my HIV status but my partner knows my HIV status (please describe how your partner knows; e.g. we got tested together)"
+,3,"No, I’ve never told him/her my HIV status and my partner does not know my HIV status"
+,4,"No, I don’t know my HIV status"
+,997,Participant indicated no main partner
+,,
+MP_UrStatus_TEXT,,
+,,Value
+Standard Attributes,Label,Have you told your main partner your HIV status?-TEXT
+,Type,String
+,Format,A113
+,Measurement,Nominal
+,,
+MP_Drugs_1,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: marijuana
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Marijuana
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_2,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: cocaine
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Cocaine
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_3,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: crack
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Crack
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_4,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: crystal meth
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Crystal Meth
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_5,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: heroin
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Heroin
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_6,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: MDMA
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,MDMA
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_7,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: ketamine
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Ketamine
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_8,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: GHB
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,GHB
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_9,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: poppers
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Poppers
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_10,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: recreational Rx
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Rx
+Missing Values,997,Participant indicated no main partner
+,,
+MP_Drugs_11,,
+,,Value
+Standard Attributes,Label,MP substance use in last 6M: none of these/I don't know
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,None of these
+Missing Values,997,Participant indicated no main partner
+,,
+AnyDrugsYN_6M_MP,,
+,,Value
+Standard Attributes,Label,Main partner used drugs in the past 6 months
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+,997,Participant indicated no main partner
+,,
+ClubDrugsYN_6M_MP,,
+,,Value
+Standard Attributes,Label,"Main partner used club drugs in the past 6 months (Crack/Cocaine, Ecstasy, GHB, Ketamine, Meth)"
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,Participant indicated no main partner
+,,
+SU6Msum_MP,,
+,,Value
+Standard Attributes,Label,"Main partner 6M drug use: Cocaine, Crystal Meth, Ecstasy, GHB/GBL/etc, Heroin/Opiates, Ketamine, Marijuana/hash, Crack, Poppers, Rx"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,997,Participant indicated no main partner
+,,
+Sx_FCP,,
+,,Value
+Standard Attributes,Label,# of Female Casual Partners
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+,,
+Sx_MCP,,
+,,Value
+Standard Attributes,Label,# of Male Casual Partners
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+,,
+Sx_MCP_HIVsame,,
+,,Value
+Standard Attributes,Label,# of Male Casual Partners with same HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_HIVdiff,,
+,,Value
+Standard Attributes,Label,# of Male Casual Partners with different or unknown HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_AINC_HIVsame,,
+,,Value
+Standard Attributes,Label,# of Anal Insertive No Condom Acts with a Male Casual Partner same HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_AIC_HIVsame,,
+,,Value
+Standard Attributes,Label,# of Anal Insertive w/ Condom Acts with a Male Casual Partner same HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ARNC_HIVsame,,
+,,Value
+Standard Attributes,Label,# of Anal Receptive No Condom Acts with a Male Casual Partner same HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ARC_HIVsame,,
+,,Value
+Standard Attributes,Label,# of Anal Receptive w/ Condom Acts with a Male Casual Partner same HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_AINC_HIVdiff,,
+,,Value
+Standard Attributes,Label,# of Anal Insertive No Condom Acts with a Male Casual Partner different or unknown HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_AIC_HIVdiff,,
+,,Value
+Standard Attributes,Label,# of Anal Insertive w/ Condom Acts with a Male Casual Partner different or unknown HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ARNC_HIVdiff,,
+,,Value
+Standard Attributes,Label,# of Anal Receptive No Condom Acts with a Male Casual Partner different or unknown HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ARC_HIVdiff,,
+,,Value
+Standard Attributes,Label,# of Anal Receptive w/ Condom Acts with a Male Casual Partner different or unknown HIV status
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_CP,,
+,,Value
+Standard Attributes,Label,# of Casual Partners
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ANC_HIVsame,,
+,,Value
+Standard Attributes,Label,# Male Same HIV Status Casual Partners No Condom Anal Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ANC_HIVdiff,,
+,,Value
+Standard Attributes,Label,# Male Different or Unknown HIV Status Casual Partners No Condom Anal Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_A_HIVsame,,
+,,Value
+Standard Attributes,Label,# Male Same HIV Status Casual Partners Anal Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_A_HIVdiff,,
+,,Value
+Standard Attributes,Label,# Male Different or Unknown HIV Status Casual Partners Anal Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_ANC,,
+,,Value
+Standard Attributes,Label,# Male Casual Partner Anal No Condom Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_AC,,
+,,Value
+Standard Attributes,Label,# Male Casual Partner Anal Condom Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_MCP_A,,
+,,Value
+Standard Attributes,Label,# Male Casual Partner Anal Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_CP_ANC,,
+,,Value
+Standard Attributes,Label,# Casual Partner (excludes female) Anal No Condom Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_CP_AC,,
+,,Value
+Standard Attributes,Label,# Casual Partner (excludes female) Anal Condom Acts
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_CP_TotalEvents,,
+,,Value
+Standard Attributes,Label,# Sex Events with Casual Partners (excludes female casual partners)
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_ANC_TotalEvents,,
+,,Value
+Standard Attributes,Label,# Anal No Condom Events Total
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_AC_TotalEvents,,
+,,Value
+Standard Attributes,Label,# Anal Condom Events Total
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+Sx_TotalEvents,,
+,,Value
+Standard Attributes,Label,# Sex Events Total
+,Type,Numeric
+,Format,F3
+,Measurement,Scale
+Labeled Values,997,Participant indicated 0 male casual partners
+,,
+PrEPLad,,
+,,Value
+Standard Attributes,Label,Instructions: PrEP (pre-exposure prophylaxis) is a biomedical strategy to prevent HIV infection....
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,1. I will never need PrEP and have no interest in ever starting it.
+,2,2. I am not willing to take PrEP and I currently have no plans start it.
+,3,3. I am willing to take PrEP but I don’t think I’m a good candidate for it and have no plans to start it.
+,4,"4. I am willing to take PrEP and think I’m a good candidate for it, but I currently have no plans to start it."
+,5,"5. I definitely plan to start taking PrEP, but I’m not yet ready to take any steps to get started."
+,6,"6. I definitely plan to start taking PrEP and I’ve talked to a doctor about getting started, but don’t yet have a prescription."
+,7,"7. I’ve gotten a prescription for PrEP, but I’m having trouble getting it filled."
+,8,"8. I am on PrEP, but struggle to take it daily and am not sure I can see my provider for HIV/STI testing every 3 months, as recommended."
+,9,"9. I am on PrEP and take it nearly every day, but it’s difficult to get to my provider for HIV/STI testing every 3 months, as recommended."
+,10,"10. I have been taking PrEP every day and am committed to HIV/STI testing and provider check-ups every 3 months, as recommended."
+,997,Participant is HIV+
+,,
+PrEP_1_1,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-My participation in a different research study
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Participation in a different research study
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_2,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a news media source
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A news media source
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_3,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a social media source
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A social media source
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_4,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a friend
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A friend
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_5,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-my main partner
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,My main partner
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_6,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a casual sex partner
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A casual sex partner
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_7,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a family member
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A family member
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_8,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a medical provider
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A medical provider
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_9,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-a community-based agency
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,A community-based agency
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_10,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-Other (Please describe):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_10_TEXT,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-Other (Please describe):-TEXT
+,Type,String
+,Format,A240
+,Measurement,Nominal
+,,
+PrEP_1_11,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-I don’t remember
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't remember
+Missing Values,997,Participant is HIV+
+,,
+PrEP_1_12,,
+,,Value
+Standard Attributes,Label,Where have you heard about PrEP? (Check all that apply)-I had never heard of it before today
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Never heard of it before today
+Missing Values,997,Participant is HIV+
+,,
+PrEP_2,,
+,,Value
+Standard Attributes,Label,How important is it to still use other methods of HIV-prevention (e.g. reducing number of partner...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Extremely important
+,2,Very important
+,3,Somewhat important
+,4,Not very important
+,5,Not at all important
+,6,I don’t know
+,997,Participant is HIV+
+,,
+PrEP_3,,
+,,Value
+Standard Attributes,Label,How effective is PrEP in preventing HIV infection?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,More than 90% effective
+,2,75-89% effective
+,3,50-74% effective
+,4,35-49% effective
+,5,20-34% effective
+,6,Less than 20% effective
+,7,I don’t know
+,997,Participant is HIV+
+,,
+PrEP_4,,
+,,Value
+Standard Attributes,Label,Have you ever looked for information about whether you would be an appropriate candidate for PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,"Yes (If yes, what resources have you used?):"
+,997,Participant is HIV+
+,,
+PrEP_4_TEXT,,
+,,Value
+Standard Attributes,Label,Have you ever looked for information about whether you would be an appropriate candidate for PrEP?-TEXT
+,Type,String
+,Format,A182
+,Measurement,Nominal
+,,
+PrEP_5,,
+,,Value
+Standard Attributes,Label,Do you believe that you are currently an appropriate candidate for PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Yes, I am definitely an appropriate candidate for PrEP"
+,2,"Yes, I think I am an appropriate candidate for PrEP"
+,3,I’m not sure if I am an appropriate candidate for PrEP
+,4,"No, I don’t think I am an appropriate candidate for PrEP"
+,5,"No, I am definitely not an appropriate candidate for PrEP"
+,997,Participant is HIV+
+,,
+PrEPRxEver,,
+,,Value
+Standard Attributes,Label,"Have you ever been prescribed HIV medications (e.g., Truvada) for use as PrEP (HIV pre-exposure p..."
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,"No, I&rsquo;ve never been prescribed PrEP"
+,1,"Yes, I am currently prescribed PrEP"
+,2,"Yes, but I am no longer prescribed PrEP"
+Missing Values,997,Participant is HIV+
+,,
+PrEP7,,
+,,Value
+Standard Attributes,Label,In the past 6 months have you spoken to a medical provider about starting PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Yes, and we both decided it was a good option for me and I should start PrEP"
+,2,"Yes, and we both decided it might be a good option but to wait before beginning PrEP"
+,3,"Yes, and we both decided it was not a good option for me"
+,4,"Yes, and the provider was not comfortable prescribing PrEP for me"
+,5,"Yes, and the provider thought it was a good option but I chose not to do it"
+,6,"No, I have not ever spoken to a provider about starting PrEP"
+,997,Participant is HIV+ or is currently prescribed PrEP
+,,
+PrEP8,,
+,,Value
+Standard Attributes,Label,Did you stop taking PrEP in the last 6 months?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,Participant is HIV+ or has never been prescribed or is currently prescribed PrEP
+,,
+PrEP9_1,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Gay/bi friends
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Gay/bi friends
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_2,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Other friends
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other friends
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_3,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Family members
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Family members
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_4,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-My main sex partner
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,My main sex partner
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_5,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Casual sex partners
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Casual sex partners
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_6,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Other (specify):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+
+,,
+PrEP9_6_TEXT,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-Other (specify):-TEXT
+,Type,String
+,Format,A213
+,Measurement,Nominal
+,,
+PrEP9_7,,
+,,Value
+Standard Attributes,Label,Are any of the following people you know currently on PrEP? (check all that apply)-None of the above (I don’t know anyone on PrEP)
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Don't know anyone on PrEP
+Missing Values,997,Participant is HIV+
+,,
+PrEP10,,
+,,Value
+Standard Attributes,Label,"In general, I would say the people I am close with"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Are in favor of PrEP
+,2,Are opposed to PrEP
+,3,Are split evenly between being in favor of and being opposed to PrEP
+,4,Don’t have strong opinions either way
+,5,Don’t really know what PrEP is
+,997,Participant is HIV+
+,,
+PrEP11,,
+,,Value
+Standard Attributes,Label,How likely would you be to take PrEP if it were available for free?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I would definitely take it
+,2,I would probably take it
+,3,I might take it
+,4,I would probably not take it
+,5,I would definitely not take it
+,997,Participant is HIV+ or is currently prescribed PrEP
+,,
+PrEP12,,
+,,Value
+Standard Attributes,Label,"PrEP is currently available with a prescription from your doctor, and research has shown that a m..."
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Yes, I will definitely begin taking PrEP"
+,2,"Yes, I will probably begin taking PrEP"
+,3,I’m not sure – I might begin taking PrEP
+,4,"No, I probably will not begin taking PrEP"
+,5,"No, I definitely will not begin taking PrEP"
+,997,Participant is HIV+ or is currently prescribed PrEP
+,,
+PrEP13,,
+,,Value
+Standard Attributes,Label,How soon do you plan to begin taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Within the next month
+,2,Within the next 2-3 months
+,3,Within the next 4-6 months
+,4,Within the next 7 months to a year
+,5,More than a year from now
+,997,Participant is not sure/probably/definitely will not start PrEP
+,,
+PrEP14_1,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I am unsure if I am at high enough risk for HIV
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Unsure if I am at high enough risk of HIV
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_2,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I don’t have a way to pay for it.
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't have a way to pay for it
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_3,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months? I don't have access to a medical provider that will prescribe it
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't have access to a medical provider who will prescribe it
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_4,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I haven’t seen my medical provider recently
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I haven't seen my medical provider recently
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_5,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I haven’t told my medical provider that I am gay/bisexual.
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I haven't told my medical provider I am gay/bi
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_6,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I am concerned about talking to my medical provider about my sex life
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I am concerned about talking to my medical provider about my sex life
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_7,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I am concerned about PrEP side effects
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I am concerned about side effects
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_8,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-I prefer to use condoms.
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I prefer to use condoms
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_9,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-Other (Please specify):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+ or currently prescribed or probably/definitely will not begin PrEP
+,,
+PrEP14_9_TEXT,,
+,,Value
+Standard Attributes,Label,What are the reasons you have not spoken to a medical provider about PrEP in the last 6 months?-Other (Please specify):-TEXT
+,Type,String
+,Format,A328
+,Measurement,Nominal
+,,
+PrEP15_1,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I’m not at high enough risk for HIV
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Not at high enough risk for HIV
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_2,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I don’t have a way to pay for it
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't have a way to pay for it
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_3,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I don’t have access to a medical provider who will prescribe it
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't have access to a medical provider that will prescribe it
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_4,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I don’t believe it works well enough
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't believe it works well enough
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_5,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I am too concerned about PrEP side effects
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I am too concerned about PrEP side effects
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_6,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I prefer to use condoms
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I prefer to use condoms
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_7,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I don’t want people to think I am HIV-positive
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't want people to think I'm HIV+
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_8,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-I don’t want to risk being stigmatized for taking PrEP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I don't want to risk being stigmatized for taking PrEP
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_9,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-Other (Please specify):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+ or probably/definitely will being PrEP
+,,
+PrEP15_9_TEXT,,
+,,Value
+Standard Attributes,Label,What are the reasons you do not intend to begin PrEP?-Other (Please specify):-TEXT
+,Type,String
+,Format,A756
+,Measurement,Nominal
+,,
+PrEP16,,
+,,Value
+Standard Attributes,Label,Suppose that you were interested in getting a new prescription for PrEP – do you have or know of...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,"Yes, I definitely have or know of a provider"
+,2,"Yes, I probably have or know of a provider"
+,3,"No, I probably do not have or know of a provider"
+,4,"No, I definitely do not have or know of a provider"
+,997,Participant is HIV+ or currently prescribed PrEP
+,,
+PrEP17,,
+,,Value
+Standard Attributes,Label,Suppose that you were interested in getting a new prescription for PrEP – where would you feel mo...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,My primary care provider (my regular doctor)
+,2,"A clinic specializing in HIV-related care (e.g., an HIV clinic)"
+,3,"A clinic specializing in sexual health (e.g., a Planned Parenthood, an STD clinic)"
+,4,A clinic specializing in LGBT health care
+,5,Other (Please specify):
+,997,Participant is HIV+ or currently prescribed PrEP
+,,
+PrEP17_TEXT,,
+,,Value
+Standard Attributes,Label,Suppose that you were interested in getting a new prescription for PrEP – where would you feel mo...-TEXT
+,Type,String
+,Format,A270
+,Measurement,Nominal
+,,
+PrEP18,,
+,,Value
+Standard Attributes,Label,How likely would you be to have anal sex without a condom if you started taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I&rsquo;d be much less likely to have sex without a condom if I were on PrEP
+,2,I&rsquo;d be less likely to have sex without a condom if I were on PrEP
+,3,I&rsquo;d be slightly less likely to have sex without a condom if I were on PrEP
+,4,I’d be no more or less likely to have sex without a condom if I were on PrEP
+,5,I&rsquo;d be slightly more likely to have sex without a condom if I were on PrEP
+,6,I&rsquo;d be more likely to have sex without a condom if I were on PrEP
+,7,I&rsquo;d be much more likely to have sex without a condom if I were on PrEP
+,997,Participant is HIV+ or currently/once was but no longer prescribed PrEP
+,,
+PrEP19,,
+,,Value
+Standard Attributes,Label,How likely would you be to have anal sex without a condom with a guy you knew was HIV-positive if...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I&rsquo;d be much less likely to have sex without a condom if I were on PrEP
+,2,I&rsquo;d be less likely to have sex without a condom if I were on PrEP
+,3,I&rsquo;d be slightly less likely to have sex without a condom if I were on PrEP
+,4,I’d be no more or less likely to have sex without a condom if I were on PrEP
+,5,I&rsquo;d be slightly more likely to have sex without a condom if I were on PrEP
+,6,I&rsquo;d be more likely to have sex without a condom if I were on PrEP
+,7,I&rsquo;d be much more likely to have sex without a condom if I were on PrEP
+,997,Participant is HIV+ or currently/once was but no longer prescribed PrEP
+,,
+PrEP20_1,,
+,,Value
+Standard Attributes,Label,When did you first begin taking PrEP? Month
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,January
+,2,February
+,3,March
+,4,April
+,5,May
+,6,June
+,7,July
+,8,August
+,9,September
+,10,October
+,11,November
+,12,December
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP20_2,,
+,,Value
+Standard Attributes,Label,When did you first begin taking PrEP? Year
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,7,prior to 2012
+,997,Participant is HIV+ or not currently prescribed PrEP
+,2012,2012
+,2013,2013
+,2014,2014
+,2015,2015
+,2016,2016
+,2017,2017
+,,
+PrEP21,,
+,,Value
+Standard Attributes,Label,"How much do you currently pay out of pocket for your PrEP prescription? (if nothing, enter 0)"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+Labeled Values,997.00,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP22,,
+,,Value
+Standard Attributes,Label,How do the efforts and costs required to get your PrEP prescription compare to other prescription...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,It&rsquo;s harder for me to get PrEP than other prescriptions
+,2,It&rsquo;s easier for me to get PrEP than other prescriptions
+,3,Getting PrEP is the same as getting other prescriptions
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP23,,
+,,Value
+Standard Attributes,Label,Are you currently or have you ever taken PrEP without a prescription? (e.g. getting it from a fri...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP24,,
+,,Value
+Standard Attributes,Label,For how long do you plan to continue taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,3 months
+,2,6 months
+,3,1 year
+,4,2-3 years
+,5,4-5 years
+,6,More than 5 years
+,7,I don’t intend to stop
+,8,I don’t know when I plan to stop
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP25,,
+,,Value
+Standard Attributes,Label,"When you decided to begin PrEP, did your doctor discuss how long you should plan to be on PrEP?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,2,I don’t know
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP26,,
+,,Value
+Standard Attributes,Label,In the past 6 months have there been any periods of time when you’ve stopped taking PrEP? Please...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,No
+,2,Yes (Please describe):
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP26_TEXT,,
+,,Value
+Standard Attributes,Label,In the past 6 months have there been any periods of time when you’ve stopped taking PrEP? Please...-TEXT
+,Type,String
+,Format,A382
+,Measurement,Nominal
+,,
+PrEP27,,
+,,Value
+Standard Attributes,Label,Where are you currently receiving your PrEP prescription?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,My primary care provider (my regular doctor)
+,2,"A clinic specializing in HIV-related care (e.g., an HIV clinic)"
+,3,"A clinic specializing in sexual health (e.g., a Planned Parenthood, an STD clinic)"
+,4,A clinic specializing in LGBT health care
+,5,A research study focused on PrEP
+,6,Other (Please specify):
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_TEXT,,
+,,Value
+Standard Attributes,Label,Where are you currently receiving your PrEP prescription?-TEXT
+,Type,String
+,Format,A102
+,Measurement,Nominal
+,,
+PrEP27_2_1,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-With insurance coverage
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,With insurance coverage
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_2,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-With a state-run PrEP assistance program (e.g. PrEP-AP)
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,With a state-run PrEP assistance program
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_3,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-With Gilead’s PrEP co-pay or medication assistance program
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,With Gilead's PrEP co-pay or medication assistance program
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_4,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-Getting it free as part of a research study
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Getting it free as part of a research study
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_5,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-I pay for it myself
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I pay for it myself
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_6,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-Other (Please specify):
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP27_2_6_TEXT,,
+,,Value
+Standard Attributes,Label,How are you currently paying for your PrEP prescription? (Select all that apply)-Other (Please specify):-TEXT
+,Type,String
+,Format,A739
+,Measurement,Nominal
+,,
+PrEP28,,
+,,Value
+Standard Attributes,Label,How likely would you be to have anal sex without a condom if you stopped taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I&rsquo;d be much less likely to have sex without a condom if I weren't on PrEP
+,2,I&rsquo;d be less likely to have sex without a condom if I weren't on PrEP
+,3,I&rsquo;d be slightly less likely to have sex without a condom if I weren't on PrEP
+,4,I’d be no more or less likely to have sex without a condom if I weren't on PrEP
+,5,I&rsquo;d be slightly more likely to have sex without a condom if I weren't on PrEP
+,6,I&rsquo;d be more likely to have sex without a condom if I weren't on PrEP
+,7,I&rsquo;d be much more likely to have sex without a condom if I weren't on PrEP
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP29,,
+,,Value
+Standard Attributes,Label,How likely would you be to have anal sex without a condom with a guy you knew was HIV-positive if...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I&rsquo;d be much less likely to have sex without a condom if I weren't on PrEP
+,2,I&rsquo;d be less likely to have sex without a condom if I weren't on PrEP
+,3,I&rsquo;d be slightly less likely to have sex without a condom if I weren't on PrEP
+,4,I’d be no more or less likely to have sex without a condom if I weren't on PrEP
+,5,I&rsquo;d be slightly more likely to have sex without a condom if I weren't on PrEP
+,6,I&rsquo;d be more likely to have sex without a condom if I weren't on PrEP
+,7,I&rsquo;d be much more likely to have sex without a condom if I weren't on PrEP
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEP20_M,,
+,,Value
+Standard Attributes,Label,When did you first begin taking PrEP? Month
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,January
+,2,February
+,3,March
+,4,April
+,5,May
+,6,June
+,7,July
+,8,August
+,9,September
+,10,October
+,11,November
+,12,December
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP30_Y,,
+,,Value
+Standard Attributes,Label,When did you first begin taking PrEP? Year
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,2017
+,2,2016
+,3,2015
+,4,2014
+,5,2013
+,6,2012
+,364,prior to 2012
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP31_M,,
+,,Value
+Standard Attributes,Label,When did you stop taking PrEP? Month
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,January
+,2,February
+,3,March
+,4,April
+,5,May
+,6,June
+,7,July
+,8,August
+,9,September
+,10,October
+,11,November
+,12,December
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP31_Y,,
+,,Value
+Standard Attributes,Label,When did you stop taking PrEP? Year
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,2017
+,2,2016
+,3,2015
+,4,2014
+,5,2013
+,6,2012
+,364,prior to 2012
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_1,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-I was having trouble covering the costs
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_2,,
+,,Value
+Standard Attributes,Label,"Why did you decide to stop taking PrEP? Please check all that apply.-My sexual behavior changed in ways that made it less risky for HIV (e.g., fewer partners, monogamy)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_3,,
+,,Value
+Standard Attributes,Label,"Why did you decide to stop taking PrEP? Please check all that apply.-I’m relying on other HIV prevention methods (e.g., condoms)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_4,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-I wasn’t consistently taking it
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_5,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-I was experiencing or concerned about the possibility of side effects
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_6,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-I was concerned about what other people would think of my being on PrEP
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_7,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-Other reasons not listed (write in)
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP32_7_TEXT,,
+,,Value
+Standard Attributes,Label,Why did you decide to stop taking PrEP? Please check all that apply.-Other reasons not listed (write in)-TEXT
+,Type,String
+,Format,A150
+,Measurement,Nominal
+,,
+PrEP33,,
+,,Value
+Standard Attributes,Label,We are interested in knowing more about the reasons you began taking PrEP and what caused you to...
+,Type,String
+,Format,A837
+,Measurement,Nominal
+,,
+PrEP34,,
+,,Value
+Standard Attributes,Label,How likely were you to have anal sex without a condom when you were taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I was much less likely to have sex without a condom when I was on PrEP
+,2,I was less likely to have sex without a condom when I was on PrEP
+,3,I was slightly less likely to have sex without a condom when I was on PrEP
+,4,I was no more or less likely to have sex without a condom when I was on PrEP
+,5,I was slightly more likely to have sex without a condom when I was on PrEP
+,6,I was more likely to have sex without a condom when I was on PrEP
+,7,I was much more likely to have sex without a condom when I was on PrEP
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP35,,
+,,Value
+Standard Attributes,Label,How likely were you to have anal sex without a condom with a guy you knew was HIV-positive when y...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I was much less likely to have sex without a condom when I was on PrEP
+,2,I was less likely to have sex without a condom when I was on PrEP
+,3,I was slightly less likely to have sex without a condom when I was on PrEP
+,4,I was no more or less likely to have sex without a condom when I was on PrEP
+,5,I was slightly more likely to have sex without a condom when I was on PrEP
+,6,I was more likely to have sex without a condom when I was on PrEP
+,7,I was much more likely to have sex without a condom when I was on PrEP
+,997,Participant is HIV+ or never prescribed/currently prescribed PrEP
+,,
+PrEP36,,
+,,Value
+Standard Attributes,Label,Is your main partner currently taking PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,2,I don’t know
+,997,Participant has no main partner or main partner is HIV+
+,,
+PrEP37,,
+,,Value
+Standard Attributes,Label,How important would it be for your partner to take PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not important at all
+,2,Not very important
+,3,Important
+,4,Very important
+,997,Participant has no main partner or main partner is HIV+
+,,
+PrEP38,,
+,,Value
+Standard Attributes,Label,How likely would you be to try to convince him to consider starting PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I would definitely try
+,2,I would probably try
+,3,I might try
+,4,I would probably not try
+,5,I would definitely not try
+,997,Participant has no main partner or main partner is HIV+
+,,
+PrEP39,,
+,,Value
+Standard Attributes,Label,Do you plan to talk to your partner about beginning to take PrEP?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,I will definitely talk to him about beginning to take PrEP
+,2,I will probably talk to him about beginning to take PrEP
+,3,I’m not sure – I might talk to him about beginning to take PrEP
+,4,I will probably not talk to him about beginning to take PrEP
+,5,I will definitely not talk to him about beginning to take PrEP
+,997,Participant has no main partner or main partner is HIV+
+,,
+PrEPAd1,,
+,,Value
+Standard Attributes,Label,"In the last month (30 days), has there been a time when you did not take your PrEP for 4 or more..."
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd2,,
+,,Value
+Standard Attributes,Label,"In the last month (30 days), on how many days did you miss a dose of your PrEP?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,0 - I have not missed any doses in the past month
+,2,1
+,3,2
+,4,3
+,5,4
+,6,5
+,7,6
+,8,7
+,9,8
+,10,9
+,11,10
+,12,11
+,13,12
+,14,13
+,15,14
+,16,15
+,17,16
+,18,17
+,19,18
+,20,19
+,21,20
+,22,21
+,23,22
+,24,23
+,25,24
+,26,25
+,27,26
+,28,27
+,29,28
+,30,29
+,31,30
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd3,,
+,,Value
+Standard Attributes,Label,"In the last 30 days, how often did you take your PrEP in the way you were supposed to?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,Never
+,1,Rarely
+,3,Sometimes
+,4,Almost always
+,5,Always
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd4,,
+,,Value
+Standard Attributes,Label,"In the last 30 days, how good a job did you do at taking your PrEP in the way you were supposed to?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Very poor
+,2,Poor
+,3,Fair
+,4,Good
+,5,Very good
+,6,Excellent
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd5,,
+,,Value
+Standard Attributes,Label,"In the last 3M, on how many days did you miss a PrEP dose?"
+,Type,Numeric
+,Format,F2
+,Measurement,Scale
+Labeled Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_1,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I wanted to avoid the side effects"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I wanted to avoid side effects
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_2,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I didn’t feel well"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I didn't well
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_3,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I forgot"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I forgot
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_4,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I ran out of medication"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I ran out of medication
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_5,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I didn’t think I needed it"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I didn't think I needed it
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_6,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I wasn’t home and forgot my pills"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I wasn't home and forgot my pills
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_7,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I was with a sexual partner"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I was with a sexual partner
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_8,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I was drinking"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I was drinking
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_9,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-I was using drugs"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,I was using drugs
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_10,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-Other (Please specify other reasons):"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,Not applicable
+,1,Other
+Missing Values,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+PrEPAd6_10_TEXT,,
+,,Value
+Standard Attributes,Label,"In the past 90 days, how many of the following were reasons you missed a dose? (Select all that a...-Other (Please specify other reasons):-TEXT"
+,Type,String
+,Format,A181
+,Measurement,Nominal
+,,
+PrEPAd7,,
+,,Value
+Standard Attributes,Label,How regularly do you return to the medical provider who prescribes your PrEP to receive HIV/STI t...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,At least 4 times per year (every 3 months)
+,2,About 2-3 times per year (every 4-6 months)
+,3,About once per year (every 12 months)
+,4,Less often than once per year
+,997,Participant is HIV+ or not currently prescribed PrEP
+,,
+Trust_1,,
+,,Value
+Standard Attributes,Label,We are interested in knowing more about how much you trust various organizations and businesses t...-An online research study conducted by researchers at a university
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_2,,
+,,Value
+Standard Attributes,Label,We are interested in knowing more about how much you trust various organizations and businesses t...-An online research study conducted by an LGBT community center
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_3,,
+,,Value
+Standard Attributes,Label,We are interested in knowing more about how much you trust various organizations and businesses t...-An online research study conducted by a government health agency such as the Centers for Disease Control (CDC) or your state’s Department of Health
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_4,,
+,,Value
+Standard Attributes,Label,"We are interested in knowing more about how much you trust various organizations and businesses t...-A mobile networking app for gay/bi men (e.g., Grindr, Scruff)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_5,,
+,,Value
+Standard Attributes,Label,"We are interested in knowing more about how much you trust various organizations and businesses t...-A mobile networking app for the general public (e.g., OKCupid, Tinder)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_6,,
+,,Value
+Standard Attributes,Label,"We are interested in knowing more about how much you trust various organizations and businesses t...-An online shopping website (e.g., Amazon, Overstock)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_7,,
+,,Value
+Standard Attributes,Label,"We are interested in knowing more about how much you trust various organizations and businesses t...-An online email website (e.g., Gmail, Yahoo)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_8,,
+,,Value
+Standard Attributes,Label,"We are interested in knowing more about how much you trust various organizations and businesses t...-An online search engine (e.g., Google, Bing)"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Trust_9,,
+,,Value
+Standard Attributes,Label,We are interested in knowing more about how much you trust various organizations and businesses t...-A research study conducted by researchers at a university in collaboration with a mobile networking app for gay/bi men
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Not at all trusting
+,2,A little trusting
+,3,Trusting
+,4,Very trusting
+,,
+Privacy_A_1_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_1_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_1_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_2_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_2_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_2_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_3_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info you provide to help find better matches, such as HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_3_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_3_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_4_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_4_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_4_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_5_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_5_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_5_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_6_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_6_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_6_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_7_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_7_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_7_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_8_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_8_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_8_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_9_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_9_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_9_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_10_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_10_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_10_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_11_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_11_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_11_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_12_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_12_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_A_12_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant received ""justification"" with each explanation of data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_1_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_1_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_1_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_2_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_2_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_2_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_3_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info you provide to help find better matches, such as HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_3_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_3_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_4_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_4_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_4_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_5_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_5_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_5_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_6_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_6_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_6_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_7_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_7_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_7_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_8_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_8_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_8_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_9_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_9_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_9_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_10_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_10_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_10_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_11_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_11_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_11_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_12_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_12_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_B_12_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,"Participant was part of control group, received no ""justification"" for data sharing"
+,999,Participant chose not to respond
+,,
+Privacy_AB_1_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_1_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_1_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info in your public profile such as age, height, and relationship status"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_2_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_2_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_2_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide privately to create your account such as birthdate and ZIP
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_3_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info you provide to help find better matches, such as HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_3_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_3_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_4_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_4_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_4_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_5_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_5_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_5_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info about who you interact with in the app, such as anonymous demographic info on who you chat with"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_6_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_6_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_6_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_7_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_7_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_7_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_8_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_8_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_8_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device's GPS regarding where you’ve used the app
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_9_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_9_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_9_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_10_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_10_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_10_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info gathered by the app for marketing campaigns, such as clicks on ads in the app"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_11_1,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners privately collecting and storing info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_11_2,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_11_3,,
+,,Value
+Standard Attributes,Label,"What concerns you as a threat to privacy? App owners sharing anonymously with researchers info the app gathers from its advertising partners, such as how you utilized their services"
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_12_1,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners privately collecting and storing info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_12_2,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners selling anonymously to third-party companies info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+Privacy_AB_12_3,,
+,,Value
+Standard Attributes,Label,What concerns you as a threat to privacy? App owners sharing anonymously with researchers info such as what ads you’re most likely to respond to or the types of people you seem to match best with
+,Type,Numeric
+,Format,F3
+,Measurement,Nominal
+Valid Values,0,No
+,1,Yes
+Missing Values,997,Participant did not receive question
+,999,Participant chose not to respond
+,,
+DataSharing_1,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information you put in your public profile, such as your age, height, and relationship status?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_2,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information you provide privately to create your account, such as your birthdate and zip code?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_3,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information you provide to the app to help find better matches, such as your HIV status or sexual/dating interests?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_4,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information about your mobile device, such as its operating system and service provider?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_5,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information such as anonymous demographic information on who you chat with?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_6,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information on how you use the app, such as how often you login?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_7,,
+,,Value
+Standard Attributes,Label,"Would you grant permission to gather: Information on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test?"
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_8,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information gathered from your device's GPS regarding where you’ve used the app?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_9,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information gathered from your device’s operating system about what other apps you have on your phone?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_10,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information such as whether you’ve clicked on different advertisements in the app?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_11,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information such as how you utilized advertisers' services?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+DataSharing_12,,
+,,Value
+Standard Attributes,Label,Would you grant permission to gather: Information such as what ads you’re most likely to respond to or the types of people you seem to match best with?
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,1,Definitely not
+,2,Probably not
+,3,Probably
+,4,Definitely
+,,
+C1,,
+,,Value
+Standard Attributes,Label,"As indicated within the consent form, you are eligible to be entered into a drawing with a 1 in 1..."
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,999,Participant did not respond to these question
+,,
+C2,,
+,,Value
+Standard Attributes,Label,It looks like you may be eligible to participate in one of our other paid research studies. Are y...
+,Type,Numeric
+,Format,F8
+,Measurement,Scale
+Labeled Values,0,No
+,1,Yes
+,999,Participant did not respond to these question
+,,
+TIME,,
+,,Value
+Standard Attributes,Label,# of minutes to complete survey
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+,,
+QTxID,,
+,,Value
+Standard Attributes,Label,ResponseID
+,Type,String
+,Format,A17
+,Measurement,Nominal
+,,
+StartDate,,
+,,Value
+Standard Attributes,Label,StartDate
+,Type,Numeric
+,Format,DATETIME20
+,Measurement,Scale
+,,
+EndDate,,
+,,Value
+Standard Attributes,Label,EndDate
+,Type,Numeric
+,Format,DATETIME20
+,Measurement,Scale
+,,
+chS5oi,,
+,,Value
+Standard Attributes,Label,chS5oi
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+RecSource,,
+,,Value
+Standard Attributes,Label,RecSource
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+TWM_Eligible,,
+,,Value
+Standard Attributes,Label,TWM_Eligible
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+CVCT_Eligible,,
+,,Value
+Standard Attributes,Label,CVCT_Eligible
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+REFRESH_Eligible,,
+,,Value
+Standard Attributes,Label,REFRESH_Eligible
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+eligible,,
+,,Value
+Standard Attributes,Label,eligible
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+Q_TotalDuration,,
+,,Value
+Standard Attributes,Label,# of seconds to complete survey
+,Type,Numeric
+,Format,F5
+,Measurement,Scale
+,,
+RecType,,
+,,Value
+Standard Attributes,Label,RecType
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+AGE,,
+,,Value
+Standard Attributes,Label,AGE
+,Type,Numeric
+,Format,F5
+,Measurement,Scale
+,,
+US_12M_Sx,,
+,,Value
+Standard Attributes,Label,US_12M_Sx
+,Type,Numeric
+,Format,F5
+,Measurement,Nominal
+,,
+GEN_INELIG,,
+,,Value
+Standard Attributes,Label,GEN_INELIG
+,Type,Numeric
+,Format,F5
+,Measurement,Nominal
+,,
+SU_6M,,
+,,Value
+Standard Attributes,Label,SU_6M
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+MP_SU_6M,,
+,,Value
+Standard Attributes,Label,MP_SU_6M
+,Type,String
+,Format,A10
+,Measurement,Nominal
+,,
+GROUP,,
+,,Value
+Standard Attributes,Label,GROUP
+,Type,String
+,Format,A13
+,Measurement,Nominal
+,,
+Consent,,
+,,Value
+Standard Attributes,Label, Do you agree to participate?
+,Type,Numeric
+,Format,F8
+,Measurement,Nominal
+Valid Values,0,"No, I do not wish to continue"
+,1,"Yes, I wish to continue"
+,2,"No, I refuse to participate but would like instructions on how to enter the gift card drawing"
+,,
+Q152_1_TEXT,,
+,,Value
+Standard Attributes,Label,Browser Meta Info-Browser
+,Type,String
+,Format,A18
+,Measurement,Nominal
+,,
+Q152_3_TEXT,,
+,,Value
+Standard Attributes,Label,Browser Meta Info-Operating System
+,Type,String
+,Format,A26
+,Measurement,Nominal
+,,
+Complete,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Comments,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,String
+,Format,A86
+,Measurement,Nominal
+,,
+filter_$,,
+,,Value
+Standard Attributes,Label,Complete = 1 (FILTER)
+,Type,Numeric
+,Format,F1
+,Measurement,Nominal
+Valid Values,0,Not Selected
+,1,Selected
+,,
+Employ4cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Full-time
+,2.00,Part-time
+,3.00,Disability
+,4.00,Unemployed
+,,
+Educ4cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,High school or less
+,2.00,Some college
+,3.00,College degree
+,4.00,Post-graduate
+,,
+Privacy_A1,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information you put in your public profile, such as your age, height, and relationship status"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A2,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information you provide privately to create your account, such as your birthdate and zip code"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A3,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A4,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A5,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information about who you interact with in the app, such as anonymous demographic information on who you chat with"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A6,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A7,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A8,,
+,,Value
+Standard Attributes,Label,App owners collecting - Information gathered from your devices GPS regarding where youve used the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A9,,
+,,Value
+Standard Attributes,Label,App owners collecting - Information gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A10,,
+,,Value
+Standard Attributes,Label,"App owners collecting - Information gathered by the app for its marketing campaigns, such as whether youve clicked on different advertisements"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A11,,
+,,Value
+Standard Attributes,Label,App owners collecting - Information the app gathers from its advertising partners when you leave the app after clicking on one of their ads
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A12,,
+,,Value
+Standard Attributes,Label,App owners collecting - Information the app gathers or can generate about you when you use the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B1,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information you put in your public profile, such as your age, height, and relationship status"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B2,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information you provide privately to create your account, such as your birthdate and zip code"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B3,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B4,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B5,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information about who you interact with in the app, such as anonymous demographic information on who you chat with"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B6,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B7,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B8,,
+,,Value
+Standard Attributes,Label,App owners selling - Information gathered from your devices GPS regarding where youve used the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B9,,
+,,Value
+Standard Attributes,Label,App owners selling - Information gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B10,,
+,,Value
+Standard Attributes,Label,"App owners selling - Information gathered by the app for its marketing campaigns, such as whether youve clicked on different advertisements"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B11,,
+,,Value
+Standard Attributes,Label,App owners selling - Information the app gathers from its advertising partners when you leave the app after clicking on one of their ads
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B12,,
+,,Value
+Standard Attributes,Label,App owners selling - Information the app gathers or can generate about you when you use the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C1,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information you put in your public profile, such as your age, height, and relationship status"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C2,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information you provide privately to create your account, such as your birthdate and zip code"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C3,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information you provide to the app to help find better matches, such as your HIV status or sexual/dating interests"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C4,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information about your mobile device, such as its operating system and service provider"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C5,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information about who you interact with in the app, such as anonymous demographic information on who you chat with"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C6,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information on how you use the app, such as how often you login"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C7,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information on whether you participate in any of the app’s health promotion campaigns, such as reminders to get an HIV test"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C8,,
+,,Value
+Standard Attributes,Label,App owners sharing - Information gathered from your devices GPS regarding where youve used the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C9,,
+,,Value
+Standard Attributes,Label,App owners sharing - Information gathered from your device’s operating system about what other apps you have on your phone
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C10,,
+,,Value
+Standard Attributes,Label,"App owners sharing - Information gathered by the app for its marketing campaigns, such as whether youve clicked on different advertisements"
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C11,,
+,,Value
+Standard Attributes,Label,App owners sharing - Information the app gathers from its advertising partners when you leave the app after clicking on one of their ads
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C12,,
+,,Value
+Standard Attributes,Label,App owners sharing - Information the app gathers or can generate about you when you use the app
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_A_sum,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_B_sum,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Privacy_C_sum,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+UequalsU_3cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Accurate
+,2.00,Inaccurate
+,3.00,Not sure
+,,
+UequalsU_cont,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+UequalsU_Unk,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Region_5cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Northeast
+,2.00,Midwest
+,3.00,South
+,4.00,West
+,5.00,Other/Unknown
+,,
+SexRole_3cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Top
+,2.00,Versatile
+,3.00,Bottom
+,,
+SexID_3cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Gay/queer/homo
+,2.00,Bisexual
+,3.00,Straight/other
+,,
+PartnerStat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,.00,Single
+,1.00,"Partnered, seroconcordant"
+,2.00,"Partnered, serodiscordant"
+,,
+Any_ANC_MCP_HIVdiff,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+HIVgroup,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,HIV-neg on PrEP
+,2.00,HIV-neg not on PrEP
+,3.00,HIV-poz undetectable
+,4.00,HIV-poz detectable
+,5.00,Unknown status
+,,
+HIVsplit,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,.00,Negative/unknown
+,1.00,Positive
+,,
+TransID,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Reg_NE,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Reg_MW,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Reg_S,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Reg_W,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Reg_Oth,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Educ_HSless,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Educ_SomeCol,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Educ_4yrDeg,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Educ_GradDeg,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Sex_Top,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Sex_Vers,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Sex_Bttm,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+GayID,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Single,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Rel_SC,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Rel_SD,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+TestEvery6mo,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+HIVunkvsneg,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+HIVnegonPrEP,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+RecSite,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Social networking website
+,2.00,Sexual networking app
+,,
+RecFB,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+RecGrindr,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Age_10,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+,,
+AIDSdx,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+MedAd_Excl,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+MedAd_NA,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Educ_4yrORgrad,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+DataSharing_avg,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+,,
+Privacy_Relative,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
+,,
+DrugUseGroup,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,None
+,2.00,MJ only
+,3.00,Club drugs
+,,
+Region5cat,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+Valid Values,1.00,Northeast
+,2.00,South
+,3.00,Midwest
+,4.00,West
+,5.00,Other or Unknown
+,,
+AnyCasualCAS,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Nominal
+,,
+Age10,,
+,,Value
+Standard Attributes,Label,<none>
+,Type,Numeric
+,Format,F8.2
+,Measurement,Scale
